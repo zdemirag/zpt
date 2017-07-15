@@ -91,14 +91,8 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
     CRs[1].add_nuisance_shape("%s_stat_error_%s_bin%d"%(cid,"singleelectronCR",b),_fOut)
 
 
-  if cid is "monov":
-    tag = "_monov"
-  else:
-    tag = ""
-
-  #fztoz_trig = r.TFile.Open("misc/othersys/all_trig2.root") # 250 binning 
-  fztoz_trig = r.TFile.Open("misc/othersys/all_trig3.root") # 250 - 1400 binning 
-  #fztoz_trig = r.TFile.Open("misc/othersys/all_trig_230bin.root") # 230 binning 
+  tag = ""
+  fztoz_trig = r.TFile.Open("misc/trigger_ratio.root") 
 
   ## Here now adding the trigger uncertainty
   wtow_trig_down = fztoz_trig.Get("trig_sys_down"+tag)
@@ -127,9 +121,7 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   CRs[1].add_nuisance_shape("mettrig",_fOut)
 
 
-  #fwtowpdf = r.TFile.Open("misc/othersys/wtow_pdf_sys2.root") # 250 binning                                                                                               
-  fwtowpdf = r.TFile.Open("misc/othersys/wtow_pdf_sys3.root") # 250 - 1400 binning                                                                                               
-  #fwtowpdf = r.TFile.Open("misc/othersys/wtow_pdf_sys_230bin.root") # 230 binning                                                                                               
+  fwtowpdf = r.TFile.Open("misc/wtow_pdf_sys.root")                                                                                               
 
   wtow_pdf_down   = fwtowpdf.Get("ratio_Down"+tag)
   ratio_wtowpdf_down = targetmc.Clone();  ratio_wtowpdf_down.SetName("wmn_weights_%s_wtowpdf_Down"%cid);
@@ -159,9 +151,7 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   CRs[1].add_nuisance_shape("wtowpdf",_fOut)
 
   ## Veto uncertainties  
-  #fwtowveto = r.TFile.Open("misc/othersys/veto_sys2.root") # 250 binning
-  fwtowveto = r.TFile.Open("misc/othersys/veto_sys3.root") # 250 - 1400 binning
-  #fwtowveto = r.TFile.Open("misc/othersys/veto_sys_230bin.root") # 230 binning
+  fwtowveto = r.TFile.Open("misc/veto_sys.root")
 
   ## Wmuon CR first
   veto_el_up       = fwtowveto.Get("eleveto"+tag)
@@ -238,7 +228,7 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   #######################################################################################################
 
   cat = Category(model,cid,nam,_fin,_fOut,_wspace,out_ws,_bins,metname,targetmc.GetName(),CRs,diag)
-  cat.setDependant("zjets","wjetssignal")  # Can use this to state that the "BASE" of this is already dependant on another process
+  #cat.setDependant("zjets","wjetssignal")  # Can use this to state that the "BASE" of this is already dependant on another process
   # EG if the W->lv in signal is dependant on the Z->vv and then the W->mv is depenant on W->lv, then 
   # give the arguments model,channel name from the config which defines the Z->vv => W->lv map! 
   # Return of course
