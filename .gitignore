@@ -10,3 +10,4 @@ tmp
 HiggsAnalysis
 *.root
 CombineHarvester
+ignoreFile
