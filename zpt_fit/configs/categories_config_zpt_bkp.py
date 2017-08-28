@@ -49,7 +49,7 @@ monojet_category = {
 signal_category_0 = {
 	    'name':"signal_cat0"
             ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=-1 && genBosonPt <250 )"
+            ,"cutstring":"(met>250 && genBosonPt >100 && genBosonPt <250 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -58,14 +58,14 @@ signal_category_0 = {
             ,"samples":
 	   	{  
 		  # Signal Region
-                  "Zvv_signal"           :['signal','zjets_0',1,0]
+                  "Zvv_signal"           :['signal','zjets_0',1,1]
                   }
 }
 
 signal_category_1 = {
 	    'name':"signal_cat1"
             ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=250 && genBosonPt <350 )"
+            ,"cutstring":"(met>250 && genBosonPt >250 && genBosonPt <350 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -74,14 +74,14 @@ signal_category_1 = {
             ,"samples":
 	   	{  
 		  # Signal Region
-                  "Zvv_signal"           :['signal','zjets_1',1,0]
+                  "Zvv_signal"           :['signal','zjets_1',1,1]
                   }
 }
 
 signal_category_2 = {
 	    'name':"signal_cat2"
             ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=350 && genBosonPt <500 )"
+            ,"cutstring":"(met>250 && genBosonPt >350 && genBosonPt <500 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -90,14 +90,14 @@ signal_category_2 = {
             ,"samples":
 	   	{  
 		  # Signal Region
-                  "Zvv_signal"           :['signal','zjets_2',1,0]
+                  "Zvv_signal"           :['signal','zjets_2',1,1]
                   }
 }
 
 signal_category_3 = {
 	    'name':"signal_cat3"
             ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=500 && genBosonPt <700 )"
+            ,"cutstring":"(met>250 && genBosonPt >500 && genBosonPt <700 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -106,14 +106,14 @@ signal_category_3 = {
             ,"samples":
 	   	{  
 		  # Signal Region
-                  "Zvv_signal"           :['signal','zjets_3',1,0]
+                  "Zvv_signal"           :['signal','zjets_3',1,1]
                   }
 }
 
 signal_category_4 = {
 	    'name':"signal_cat4"
             ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=700 && genBosonPt <1000 )"
+            ,"cutstring":"(met>250 && genBosonPt >700 && genBosonPt <1000 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -122,14 +122,14 @@ signal_category_4 = {
             ,"samples":
 	   	{  
 		  # Signal Region
-                  "Zvv_signal"           :['signal','zjets_4',1,0]
+                  "Zvv_signal"           :['signal','zjets_4',1,1]
                   }
 }
 
 signal_category_5 = {
 	    'name':"signal_cat5"
             ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=1000 )"
+            ,"cutstring":"(met>250 && genBosonPt >1000 && genBosonPt <1500 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -138,7 +138,7 @@ signal_category_5 = {
             ,"samples":
 	   	{  
 		  # Signal Region
-                  "Zvv_signal"           :['signal','zjets_5',1,0]
+                  "Zvv_signal"           :['signal','zjets_5',1,1]
                   }
 }
 

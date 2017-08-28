@@ -7,9 +7,9 @@ from LoadData import *
 #from LoadElectron import *
 
 #channel_list = ['Wen']
-#channel_list = ['signal']
+channel_list = ['signal']
 #channel_list  = ['Wmn']
-channel_list = ['signal','Wmn']
+#channel_list = ['signal','Wmn']
 
 lumi=35800. 
 lumi_str = 35.9
@@ -36,7 +36,7 @@ print "Starting Plotting Be Patient!"
 
 def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False):
 
-    folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/'
+    folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2/newboson/'
 
     if not os.path.exists(folder):
         os.mkdir(folder)
@@ -46,7 +46,7 @@ def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False
     stack = THStack('a', 'a')
     if var.startswith('pfmet') or var.startswith('pfU'):
     #if var.startswith('pfU'):
-        binLowE = [250,350,500,700,1000,1500]            
+        binLowE = [ 250.0, 300.0, 350.0, 400.0, 500.0, 750.0, 1000.0, 1500.0]            
         nb = len(binLowE)-1
         added = TH1D('added','added',nb,array('d',binLowE))
     else:
@@ -81,7 +81,7 @@ def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False
 
         if var.startswith('pfmet') or var.startswith('pfU'):
         #if var.startswith('pfU'):
-            binLowE = [250,350,500,700,1000,1500]
+            binLowE = [ 250.0, 300.0, 350.0, 400.0, 500.0, 750.0, 1000.0, 1500.0]
             #binLowE = [200,250,300,350,400,500,600,750,1000]
             n2 = len(binLowE)-1
             Variables[Type] = TH1F(histName,histName,n2,array('d',binLowE))
@@ -196,11 +196,11 @@ def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False
     Variables['signal_ggf'].SetLineWidth(2)
     Variables['signal_vbf'].SetLineColor(1)
     Variables['signal_ggf'].SetLineColor(4)
-    Variables['signal_vbf'].Draw("samehist")
-    Variables['signal_ggf'].Draw("samehist")
+    #Variables['signal_vbf'].Draw("samehist")
+    #Variables['signal_ggf'].Draw("samehist")
 
-    legend . AddEntry(Variables['signal_vbf'],physics_processes['signal_vbf']['label'] , "l")
-    legend . AddEntry(Variables['signal_ggf'],physics_processes['signal_ggf']['label'] , "l")
+    #legend . AddEntry(Variables['signal_vbf'],physics_processes['signal_vbf']['label'] , "l")
+    #legend . AddEntry(Variables['signal_ggf'],physics_processes['signal_ggf']['label'] , "l")
 
     legend.SetShadowColor(0);
     legend.SetFillColor(0);
@@ -269,10 +269,15 @@ arguments['njet']       = ['nJet','nJet',10,0,10,'Events','Number of jets',False
 arguments['dphicalopf'] = ['dphicalopf','deltaPhi(calometphi,pfmetphi)',50,0,5,'Events','#Delta#phi_{calomet,pfmet}',False]
 arguments['mT']         = ['mT','mT',40,0,400,'Events/GeV','MT',True]
 
+arguments['diffmetW']   = ['diffmetW','fabs(calomet-pfmet)/pfUWmag',50,0,2,'Events','|Calo E_{T}^{miss} - PF E_{T}^{miss} | / Hadronic recoil P_{T}',True]
+
+arguments['lep1pt']       = ['lep1pt','looseLep1Pt',25,0,1500,'Events/GeV','Leading lepton P_{T} [GeV]',True]
+
 processes     = []
 
-#variable_list = ['jet1pt','jet1eta','met','pfUZmag','pfUWmag','dphipfmet','calomet','jet1phi','npv','njet','mT']
-variable_list = ['pfmet','pfUWmag']
+#variable_list = ['jet1pt','jet1eta','pfmet','pfUWmag','dphipfmet','calomet','jet1phi','npv','njet','mT','lep1pt']
+variable_list = ['pfmet','npv']
+#variable_list = ['npv']
 
 #if 'Zmm' in channel_list:
 #    variable_list = [x if x is 'met' else 'pfUZmag' for x in variable_list]

@@ -8,7 +8,10 @@ import math
 
 def makevariations(model):
 
-  bins = [ 250,350,500,700,1000,1500 ]
+  #bins = [ 250,350,500,700,1000,1500 ]
+  #bins = [ 250.0, 275.0, 300.0, 325.0, 350.0, 375.0, 400.0, 450.0, 500.0, 750.0, 1000.0, 1500.0, 2000.0]
+
+  bins = [ 250.0, 300.0, 350.0, 400.0, 500.0, 750.0, 1000.0, 1500.0]
 
   if model == "pdf":
     infile = TFile("/afs/cern.ch/user/z/zdemirag/public/forRaffaele/new_sys/out_pdf.root","READ")

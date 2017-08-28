@@ -2,17 +2,18 @@
 # First provide ouput file name in out_file_name field 
 
 out_file_name = 'mono-x.root'
-
-bins = [ 250,350,500,700,1000,1500 ]
+#bins = [ 250.0, 275.0, 300.0, 325.0, 350.0, 375.0, 400.0, 450.0, 500.0, 750.0, 1000.0, 1500.0, 2000.0]
+bins = [ 250.0, 300.0, 350.0, 400.0, 500.0, 750.0, 1000.0, 1500.0]
+#bins = [ 250,350,500,700,1000,1500 ]
 
 monojet_category = {
 	    'name':"monojet"
-            ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
+            ,'in_file_name':"/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/fitting_zpt/fittingForest_all.root"
             ,"cutstring":"(met>250)"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
-            ,"additionalvars":[['met',100,250,1500]]
+            ,"additionalvars":[['met',100,250,2000]]
             ,"pdfmodel":0
             ,"samples":
 	   	{  
@@ -48,8 +49,8 @@ monojet_category = {
 
 signal_category_0 = {
 	    'name':"signal_cat0"
-            ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=-1 && genBosonPt <250 )"
+            ,'in_file_name':"/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/fitting_zpt/fittingForest_all.root"
+            ,"cutstring":"(met>250 && genBosonPt >=-1 && genBosonPt <200 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -64,8 +65,8 @@ signal_category_0 = {
 
 signal_category_1 = {
 	    'name':"signal_cat1"
-            ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=250 && genBosonPt <350 )"
+            ,'in_file_name':"/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/fitting_zpt/fittingForest_all.root"
+            ,"cutstring":"(met>250 && genBosonPt >=200 && genBosonPt <350 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -80,7 +81,7 @@ signal_category_1 = {
 
 signal_category_2 = {
 	    'name':"signal_cat2"
-            ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
+            ,'in_file_name':"/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/fitting_zpt/fittingForest_all.root"
             ,"cutstring":"(met>250 && genBosonPt >=350 && genBosonPt <500 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
@@ -96,8 +97,8 @@ signal_category_2 = {
 
 signal_category_3 = {
 	    'name':"signal_cat3"
-            ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=500 && genBosonPt <700 )"
+            ,'in_file_name':"/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/fitting_zpt/fittingForest_all.root"
+            ,"cutstring":"(met>250 && genBosonPt >=500 && genBosonPt <1000 )"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -112,8 +113,8 @@ signal_category_3 = {
 
 signal_category_4 = {
 	    'name':"signal_cat4"
-            ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=700 && genBosonPt <1000 )"
+            ,'in_file_name':"/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/fitting_zpt/fittingForest_all.root"
+            ,"cutstring":"(met>250 && genBosonPt >=1000)"
             ,"varstring":["met",250,1500]
             ,"weightname":"weight"
             ,"bins":bins[:]
@@ -126,20 +127,4 @@ signal_category_4 = {
                   }
 }
 
-signal_category_5 = {
-	    'name':"signal_cat5"
-            ,'in_file_name':"/afs/cern.ch/work/z/zdemirag/work/zpt/fit/CMSSW_7_4_7/src/zpt_fit/configs/fitting_zpt/fittingForest_all.root"
-            ,"cutstring":"(met>250 && genBosonPt >=1000 )"
-            ,"varstring":["met",250,1500]
-            ,"weightname":"weight"
-            ,"bins":bins[:]
-            ,"additionalvars":[['met',100,250,1500]]
-            ,"pdfmodel":0
-            ,"samples":
-	   	{  
-		  # Signal Region
-                  "Zvv_signal"           :['signal','zjets_5',1,0]
-                  }
-}
-
-categories = [monojet_category, signal_category_0, signal_category_1, signal_category_2, signal_category_3, signal_category_4, signal_category_5]
+categories = [monojet_category, signal_category_0, signal_category_1, signal_category_2, signal_category_3, signal_category_4]#, signal_category_5,signal_category_6]

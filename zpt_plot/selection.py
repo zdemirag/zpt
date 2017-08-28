@@ -8,6 +8,7 @@ def build_weights(channel, Type):
             common_weight = "*(1.0)"
         else:
             common_weight = "*sf_pu*sf_tt*normalizedWeight*sf_lepID*sf_lepIso*sf_lepTrack*sf_ewkV*sf_qcdV*sf_metTrig"
+            #common_weight = "*sf_npv*sf_tt*normalizedWeight*sf_lepID*sf_lepIso*sf_lepTrack*sf_ewkV*sf_qcdV*sf_metTrig"
                 
     elif channel is 'Zmm':
         if Type is 'data':
@@ -20,6 +21,7 @@ def build_weights(channel, Type):
             common_weight = "*(1.0)"
         else:
             common_weight = "*sf_pu*sf_tt*normalizedWeight*sf_lepID*sf_lepIso*sf_lepTrack*sf_ewkV*sf_qcdV*sf_metTrig"                         
+            #common_weight = "*sf_tt*normalizedWeight*sf_lepID*sf_lepIso*sf_lepTrack*sf_ewkV*sf_qcdV*sf_metTrig"                         
             
     elif channel is 'Wen':
         if Type is 'data':
@@ -44,7 +46,8 @@ def build_selection(selection):
         'presel' :['jet1Pt>100 && fabs(jet1Eta)<2.4 && jet1IsTight==1 && nTau==0 && jetNMBtags==0',selections],
 
         #filters and triggers
-        'metFilter' :[ 'metFilter==1 && egmFilter==1',selections],
+        #'metFilter' :[ 'metFilter==1 && egmFilter==1',selections],
+        'metFilter' :[ 'metFilter==1',selections],
         #'met'       :['(trigger&1)!=0',['signal','Zmm','Wmn']],
         #'ele'       :['(trigger&2)!=0',['Wen','Zee']],
         #'pho'       :['(trigger&4)!=0',['gjets']],

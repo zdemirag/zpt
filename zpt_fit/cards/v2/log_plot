@@ -1,0 +1,107 @@
+TH1F::Sumw2:0: RuntimeWarning: Sum of squares of weights structure already created
+Info in <TH1F::SaveAs>: ROOT file test.root has been created
+TH1F::Sumw2:0: RuntimeWarning: Sum of squares of weights structure already created
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_singlemuon.pdf has been created
+Info in <TCanvas::Print>: file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_singlemuon.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_singlemuon.C has been generated
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_singlemuon.root has been created
+TCanvas::Constructor:0: RuntimeWarning: Deleting canvas with same name: c
+TH1F::Sumw2:0: RuntimeWarning: Sum of squares of weights structure already created
+Info in <TH1F::SaveAs>: ROOT file test.root has been created
+TH1F::Sumw2:0: RuntimeWarning: Sum of squares of weights structure already created
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_singleelectron.pdf has been created
+Info in <TCanvas::Print>: file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_singleelectron.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_singleelectron.C has been generated
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_singleelectron.root has been created
+TCanvas::Constructor:0: RuntimeWarning: Deleting canvas with same name: c
+TH1F::Sumw2:0: RuntimeWarning: Sum of squares of weights structure already created
+Info in <TH1F::SaveAs>: ROOT file test.root has been created
+TH1F::Sumw2:0: RuntimeWarning: Sum of squares of weights structure already created
+Info in <TCanvas::Print>: pdf file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_signal.pdf has been created
+Info in <TCanvas::Print>: file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_signal.png has been created
+Info in <TCanvas::SaveSource>: C++ Macro file: /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_signal.C has been generated
+Info in <TCanvas::SaveAs>: ROOT file /afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2//PULLS_prefit_postfit_signal.root has been created
+[?1034hZEEEE 3849.02032701
+shapes_prefit/monojet_singlemu/total
+shapes_fit_s/chmonojet_singlemu/total_background
+
+
+qcd
+
+
+zll
+
+
+top
+
+
+diboson
+
+
+ewk
+
+
+wjets
+
+
+zjets
+ADDDDDDD
+MEAN:  -0.644567786716
+CHI2:  0.203734675743
+Added2 5.36212947625 divided:  0.670266184531
+ZEEEE 3849.02032701
+shapes_prefit/monojet_singleel/total
+shapes_fit_s/chmonojet_singleel/total_background
+
+
+qcd
+
+
+zll
+
+
+top
+
+
+diboson
+
+
+ewk
+
+
+wjets
+
+
+zjets
+ADDDDDDD
+MEAN:  0.495330452919
+CHI2:  0.151542244523
+Added2 5.15385279056 divided:  0.64423159882
+ZEEEE 3849.02032701
+shapes_prefit/monojet_signal/total
+shapes_fit_s/chmonojet_signal/total_background
+
+
+qcd
+
+
+zll
+
+
+top
+
+
+diboson
+
+
+ewk
+
+
+wjets
+
+
+zjets
+ADDDDDDD
+MEAN:  -2.34633487463
+CHI2:  0.280497756618
+Added2 36.2379244238 divided:  4.52974055297

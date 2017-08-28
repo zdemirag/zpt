@@ -1,0 +1,27 @@
+Running Minos for POI 
+index 0, Name monojet_signal/diboson, val 5378.5
+index 1, Name monojet_signal/qcd, val 555.713
+index 2, Name monojet_signal/top, val 6353.29
+index 3, Name monojet_signal/zcat0, val 65820.6
+index 4, Name monojet_signal/zcat1, val 125422
+index 5, Name monojet_signal/zcat2, val 36444
+index 6, Name monojet_signal/zcat3, val 6485.05
+index 7, Name monojet_signal/zcat4, val 976.349
+index 8, Name monojet_signal/zcat5, val 118.27
+index 9, Name monojet_signal/zll, val 1422.86
+index 10, Name monojet_singleel/diboson, val 2976.17
+index 11, Name monojet_singleel/qcd, val 3445.89
+index 12, Name monojet_singleel/top, val 11137
+index 13, Name monojet_singleel/zll, val 1773.23
+index 14, Name monojet_singlemu/diboson, val 4931.26
+index 15, Name monojet_singlemu/qcd, val 4132.06
+index 16, Name monojet_singlemu/top, val 17281.7
+index 17, Name monojet_singlemu/zll, val 6249.43
+index 18, Name monojet_signal/wjets, val 114312
+index 19, Name monojet_singleel/wjets, val 130053
+index 20, Name monojet_singlemu/wjets, val 226536
+
+ --- MaxLikelihoodFit ---
+Best fit r_zcat2: 1.07914  -1.07914/+0.249069  (68% CL)
+nll S+B -> -14330  nll B -> 8.85093e+11
+Done in 0.16 min (cpu), 0.16 min (real)

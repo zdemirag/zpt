@@ -7,7 +7,8 @@ lumi = 1.0
 
 ######################################################
 
-dataDir = "/afs/cern.ch/work/z/zdemirag/public/moriond17/setup80x/vbf_panda/vbf_004_5/"
+dataDir = "/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/"
+#"/afs/cern.ch/work/z/zdemirag/public/moriond17/setup80x/vbf_panda/vbf_004_5/"
 
 physics_processes = {
         

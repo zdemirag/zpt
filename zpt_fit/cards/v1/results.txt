@@ -1,0 +1,23 @@
+FIT TO DATA:
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+   r_zcat2 :    +1.079   -1.079/+8.921 (68%)
+   r_zcat3 :    +1.095   -0.029/+0.029 (68%)
+   r_zcat0 :    +1.187   -0.522/+0.275 (68%)
+   r_zcat1 :    +1.101   -1.101/+0.151 (68%)
+   r_zcat4 :    +0.983   -0.045/+0.046 (68%)
+   r_zcat5 :    +0.978   -0.118/+0.124 (68%)
+Done in 0.34 min (cpu), 0.34 min (real)
+
+
+ASIMOV DATA with EXPECT SIGNAL:
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+   r_zcat2 :    +1.000   -0.050/+0.049 (68%)
+   r_zcat3 :    +1.000   -0.029/+0.027 (68%)
+   r_zcat0 :    +1.000   -0.402/+0.233 (68%)
+   r_zcat1 :    +1.000   -0.110/+0.098 (68%)
+   r_zcat4 :    +1.000   -0.045/+0.047 (68%)
+   r_zcat5 :    +1.000   -0.119/+0.124 (68%)

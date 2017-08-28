@@ -1,0 +1,28 @@
+imax * number of bins
+jmax * number of processes minus 1
+kmax * number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *                         monojet_signal    combined_model.root combinedws:monojet_signal_$PROCESS
+shapes data_obs                  monojet_signal    combined_model.root combinedws:monojet_signal_data
+shapes wjets                     monojet_signal    combined_model.root combinedws:monojet_signal_wjets_model
+shapes zcat0                     monojet_signal    combined_signal.root combinedws:signal_cat0_signal_zjets_0
+shapes zcat1                     monojet_signal    combined_signal.root combinedws:signal_cat1_signal_zjets_1
+shapes zcat2                     monojet_signal    combined_signal.root combinedws:signal_cat2_signal_zjets_2
+shapes zcat3                     monojet_signal    combined_signal.root combinedws:signal_cat3_signal_zjets_3
+shapes zcat4                     monojet_signal    combined_signal.root combinedws:signal_cat4_signal_zjets_4
+shapes zcat5                     monojet_signal    combined_signal.root combinedws:signal_cat5_signal_zjets_5
+shapes *                         monojet_singleel  combined_model.root combinedws:monojet_Wen_$PROCESS
+shapes data_obs                  monojet_singleel  combined_model.root combinedws:monojet_Wen_data
+shapes wjets                     monojet_singleel  combined_model.root combinedws:monojet_singleelectron_wjets_model
+shapes *                         monojet_singlemu  combined_model.root combinedws:monojet_Wmn_$PROCESS
+shapes data_obs                  monojet_singlemu  combined_model.root combinedws:monojet_Wmn_data
+shapes wjets                     monojet_singlemu  combined_model.root combinedws:monojet_singlemuon_wjets_model
+----------------------------------------------------------------------------------------------------------------------------------
+bin          monojet_signal        monojet_singlemu      monojet_singleel
+observation  -1.0                  -1.0                  -1.0                
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                  monojet_signal        monojet_signal        monojet_signal        monojet_signal        monojet_signal        monojet_signal        monojet_signal        monojet_signal        monojet_signal        monojet_signal        monojet_signal        monojet_singlemu      monojet_singlemu      monojet_singlemu      monojet_singlemu      monojet_singlemu      monojet_singleel      monojet_singleel      monojet_singleel      monojet_singleel      monojet_singleel
+process                              zcat5                 zcat4                 zcat3                 zcat2                 zcat1                 zcat0                 zll                   top                   wjets                 diboson               qcd                   zll                   top                   diboson               wjets                 qcd                   zll                   top                   diboson               wjets                 qcd                 
+process                              -5                    -4                    -3                    -2                    -1                    11                    1                     2                     3                     4                     5                     1                     2                     4                     3                     5                     1                     2                     4                     3                     5                   
+rate                                 -1                    -1                    -1                    -1                    -1                    -1                    -1                    -1                    1.0000                -1                    -1                    -1                    -1                    -1                    1.0000                -1                    -1                    -1                    -1                    1.0000                -1                  
+----------------------------------------------------------------------------------------------------------------------------------
