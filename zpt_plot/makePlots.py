@@ -7,8 +7,8 @@ from LoadData import *
 #from LoadElectron import *
 
 #channel_list = ['Wen']
-channel_list = ['signal']
-#channel_list  = ['Wmn']
+#channel_list = ['signal']
+channel_list  = ['Wmn']
 #channel_list = ['signal','Wmn']
 
 lumi=35800. 
@@ -263,6 +263,7 @@ arguments['jet1pt']     = ['jet1Pt','jet1Pt',25,10,1500,'Events/GeV','Leading Je
 arguments['jet1phi']    = ['jet1Phi','jet1Phi',25,-5,5,'Events','Leading Jet #phi',False]
 arguments['jet1eta']    = ['jet1eta','jet1Eta',25,-5,5,'Events','Leading Jet #eta',True]
 
+
 arguments['npv']        = ['npv','npv',50,0,50,'Events','Number of primary vertices',False]
 arguments['njet']       = ['nJet','nJet',10,0,10,'Events','Number of jets',False]
 
@@ -272,12 +273,13 @@ arguments['mT']         = ['mT','mT',40,0,400,'Events/GeV','MT',True]
 arguments['diffmetW']   = ['diffmetW','fabs(calomet-pfmet)/pfUWmag',50,0,2,'Events','|Calo E_{T}^{miss} - PF E_{T}^{miss} | / Hadronic recoil P_{T}',True]
 
 arguments['lep1pt']       = ['lep1pt','looseLep1Pt',25,0,1500,'Events/GeV','Leading lepton P_{T} [GeV]',True]
+arguments['lep1eta']      = ['lep1eta','looseLep1Eta',25,-5,5,'Events','Leading Lepton #eta',True]
 
 processes     = []
 
 #variable_list = ['jet1pt','jet1eta','pfmet','pfUWmag','dphipfmet','calomet','jet1phi','npv','njet','mT','lep1pt']
-variable_list = ['pfmet','npv']
-#variable_list = ['npv']
+#variable_list = ['pfmet','npv']
+variable_list = ['lep1eta']
 
 #if 'Zmm' in channel_list:
 #    variable_list = [x if x is 'met' else 'pfUZmag' for x in variable_list]
