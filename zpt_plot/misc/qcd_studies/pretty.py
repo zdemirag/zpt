@@ -1,7 +1,7 @@
 from ROOT import *
 from math import *
 
-def plot_ratio(pull,data,mc,bin,xlabel,ylabel,low,high,division):
+def plot_ratio(pull,data,mc,xlabel,ylabel,low,high,division):
 
     Pull = data.Clone("pull")
     Pull.GetXaxis().SetTitle(xlabel)
@@ -14,7 +14,7 @@ def plot_ratio(pull,data,mc,bin,xlabel,ylabel,low,high,division):
 
     if pull:
         print 'Plotting the pulls'
-        for i in range(bin):
+        for i in range(data.GetBinX()):
             i += 1
             if data.GetBinContent(i) != 0 :
                 Pull.SetBinContent(i,Pull.GetBinContent(i)/Pull.GetBinError(i))

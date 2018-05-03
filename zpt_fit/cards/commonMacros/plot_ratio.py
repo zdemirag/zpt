@@ -11,19 +11,19 @@ def plot_ratio(process,category):
     highest2 = {}
     lowest = {}
 
-    f = TFile('combined_model.root','READ')
+    f = TFile('../v6/combined_model.root','READ')
         
     if (process=='wen'):
         dirname = "W_constraints_category_"+category 
         base    = "wen_weights_"+category
         label   = "R_{W(e#nu)}"
-        addsys  = 0.02
+        addsys  = 0.01
         
     if (process=='wmn'):
         dirname = "W_constraints_category_"+category 
         base    = "wmn_weights_"+category
         label   = "R_{W(#mu#nu)}"
-        addsys  = 0.02
+        addsys  = 0.01
         
 
     ratio = f.Get(dirname+"/"+base)
@@ -101,7 +101,7 @@ def plot_ratio(process,category):
     uncertband3.GetYaxis().SetTitle(label)
     uncertband3.GetYaxis().CenterTitle()
     uncertband3.GetYaxis().SetTitleSize(0.4*c.GetLeftMargin())
-    uncertband3.GetXaxis().SetTitle("U [GeV]")
+    uncertband3.GetXaxis().SetTitle("Hadronic recoil p_{T} [GeV]")
     uncertband3.GetXaxis().SetTitleSize(0.4*c.GetBottomMargin())
     #uncertband3.SetMaximum(2.0*ratio.GetMaximum())
     uncertband3.SetMinimum(0.5*ratio.GetMinimum())
@@ -146,7 +146,7 @@ def plot_ratio(process,category):
 
     #folder = "/afs/cern.ch/user/z/zdemirag/www/Monojet/moriond_80x/unblinding/fits/"
 
-    folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2'
+    folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v6'
 
 
     c.SaveAs(folder+"/rfactor_"+category+"_"+process+".pdf")

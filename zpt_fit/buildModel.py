@@ -53,7 +53,23 @@ for cat_id,cat in enumerate(x.categories):
   for sample in samples:
       entry = cat['samples'][sample]
       mb.addSample(sample,entry[0],entry[1],entry[2],entry[3],1)  # name, region, process, is_mc, is_signal  
-      #mb.addSample(sample,entry[0],entry[1],entry[2],entry[3],0)  # name, region, process, is_mc, is_signal  
+      try: 
+        systematics = x.systematics
+        for syst in systematics: 
+            extU = "_%sUp"%syst
+            extD = "_%sDown"%syst
+            print sample+extU, fin.Get(sample+extU)
+            if fin.Get(sample+extU): 
+              #print " Adding systematic variation %s for %s "%(syst,sample)
+              mb.addSample(sample+extU,entry[0],entry[1]+extU,entry[2],entry[3],1)  # name, region, process, is_mc, is_signal
+            #else: print " No %s Up variation found for %s"%(syst,sample)
+            if fin.Get(sample+extD):
+              #print " Adding systematic variation %s for %s "%(syst,sample)
+              mb.addSample(sample+extD,entry[0],entry[1]+extD,entry[2],entry[3],1)  # name, region, process, is_mc, is_signal
+            #else: print " No %s Down variation found for %s"%(syst,sample)
+      except : 
+        print "No systematics were put in"
+        noSys = True
   mb.save()
 
   # Add any 'cutstring' for future reference

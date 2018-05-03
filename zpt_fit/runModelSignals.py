@@ -3,7 +3,8 @@
 
 fName    = "mono-x.root"
 fOutName = "combined_signal.root"
-categories = ["signal_cat0","signal_cat1","signal_cat2","signal_cat3","signal_cat4"]#,"signal_cat5","signal_cat6"] # --> Should be labeled as in original config 
+#categories = ["signal_cat0","signal_cat1","signal_cat2","signal_cat3","signal_cat4","signal_cat5","signal_cat6"] # --> Should be labeled as in original config 
+categories = ["signal_cat0","signal_cat1","signal_cat2","signal_cat3","signal_cat4","signal_cat5"] # --> Should be labeled as in original config 
 #--------------------------------------------------------------------------------------//
 #########################################################################################
 

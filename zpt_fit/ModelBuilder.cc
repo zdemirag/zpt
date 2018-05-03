@@ -1,6 +1,7 @@
 
 #include "ModelBuilder.h"
 #include "RooCategory.h"
+#include "TMath.h"
 
 void ModelBuilder::add_cut(std::string region,std::string ecut){
   extracuts[region]+=ecut;
@@ -9,6 +10,43 @@ void ModelBuilder::add_cut(std::string region,std::string ecut){
 void ModelBuilder::saveHist(TH1F *histogram){
     histogram->SetDirectory(0);
     fOut->WriteTObject(histogram);
+
+    TString histname(histogram->GetName());
+    if (histname.Contains("Up") || histname.Contains("Down"))
+      std::cout << "not going to compute the stat up/down" << std::endl;
+
+    else{
+
+      unsigned nB = histogram->GetNbinsX()+1;
+      for (unsigned iB=1; iB!=nB; ++iB) {
+	
+	TString uncname(histname);
+	TString cpyname(histname);
+	uncname += "_stat_";
+	uncname += cpyname.ReplaceAll("_","");
+	uncname += TString::Format("_bin%u",iB);
+	
+	TH1F *hUp = (TH1F*)histogram->Clone(uncname+"Up");
+	TH1F *hDown = (TH1F*)histogram->Clone(uncname+"Down");
+	
+	float err = histogram->GetBinError(iB);
+	float val = histogram->GetBinContent(iB);
+	
+	//     printf("DEBUG: %s => %f/%f=%f\n",uncname.Data(),err,val,err/val);
+	
+	if (err/val > 0.05 or true) {
+	  hUp->SetBinContent(iB,val+err);
+	  hDown->SetBinContent(iB,TMath::Max(float(0.0001*val),val-err));
+	  
+	  fOut->WriteTObject(hUp);
+	  fOut->WriteTObject(hDown);
+	  
+	  //stat_errors.push_back(uncname);
+	}
+      }
+    }
+
+    delete histogram;
 }
 
 void ModelBuilder::save(){
@@ -30,17 +68,31 @@ void ModelBuilder::save(){
     	TH1F *hist_c = (TH1F*)generateTemplate(tmph,(RooFormulaVar*) 0
    	  , *(wspace->var(varstring.c_str()))
 	  , (*itd).second
-	  ,0,1, var, var); // extension is var name
-     //fOut->WriteTObject(hist_corrected);
+					       ,0,1, var, var); // extension is var name
+	//fOut->WriteTObject(hist_corrected);
     	saveHist(hist_c);
+	delete tmph;
+	delete hist_c;
     }
   }
 
+  std::cout << "Zeynep, right before cd, and write" << std::endl;
+
   fOut->cd();
-  //wspace->Write();
-  fOut->WriteTObject(wspace);
-  fOut->Write();
-  fOut->SaveSelf(kTRUE);
+
+  wspace->Write();
+  delete wspace;
+
+  std::cout << "Zeynep, right after cd, and write" << std::endl;
+
+  //fOut->WriteTObject(wspace);
+  //fOut->Write();
+  //fOut->SaveSelf(kTRUE);
+
+  //for (auto &s : stat_errors){ 
+  //  printf("%s\n",s.Data());
+  //}
+
 }
 
 bool ModelBuilder::has_process(ControlRegion &cr,std::string proc){
@@ -136,24 +188,9 @@ void ModelBuilder::addSample(std::string name, std::string region, std::string p
        const char *brname = br->GetName();
        if ( std::strcmp(brname,weightname.c_str())!=0 && std::strcmp(brname,varstring.c_str())!=0 ){
            RooRealVar *vartmp = new RooRealVar(brname,brname,0,1); vartmp->removeRange();
-           //std::cout << "Seen variable " << vartmp->GetName() <<  std::endl;
-           if (strncmp (vartmp->GetName(),"gSM",3) == 0)
-               continue;
-           if (strncmp (vartmp->GetName(),"gDM",3) == 0)
-               continue;
-           if (strncmp (vartmp->GetName(),"couplingwgt",11) == 0)
-               continue;
-           if (strncmp (vartmp->GetName(),"id",2) == 0)
-               continue;
-           if (strncmp (vartmp->GetName(),"genWeight",9) == 0)
-               continue;
-           if (strncmp (vartmp->GetName(),"weightPU",8) == 0)
-               continue;
-           if (strncmp (vartmp->GetName(),"weightTurnOn",12) == 0)
-               continue;
-           //std::cout << "Adding variable " << vartmp->GetName() <<  std::endl;
-           treevariables.add(*vartmp);
+           treevariables.add(*vartmp);       
        }
+	   
    }
    /**************************************************************************/
    if (! (wspace->genobj("treevars"))) {

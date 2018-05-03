@@ -7,7 +7,8 @@ lumi = 1.0
 
 ######################################################
 
-dataDir = "/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/"
+dataDir = "/desktop/05a/zdemirag/zpt_greenlight/v2/"
+#"/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/"
 #"/afs/cern.ch/work/z/zdemirag/public/moriond17/setup80x/vbf_panda/vbf_004_5/"
 
 physics_processes = {
@@ -25,16 +26,8 @@ physics_processes = {
                                 'color'   : "#F08080", 
                                 'ordering': 1,                  
                                 'xsec'    : 1.0,
-                                'files'   : [dataDir+"ZJets.root"],
+                                'files'   : [dataDir+"ZJets_pt.root"],
                                 },
-
-       #'EWKZ2Jets_ZToLL'   : { 'label':'EWK Z(ll) + 2jets',
-       #                        'datacard':'ewk_zll',
-       #                        'color'   :"#CD5C5C",
-       #                        'ordering': 2,
-       #                        'xsec' : 1.0,
-       #                        'files':[dataDir+'ZJets_EWK.root',],
-       #                        },               
 
         'Top'              : { 'label':'Top quark',
                                 'datacard':'ttbar',
@@ -57,33 +50,17 @@ physics_processes = {
                                 'color'   : "#E6E6FA", 
                                 'ordering': 5,
                                 'xsec'    : 1.0,
-                                'files'   : [dataDir+'WJets.root',],
+                                'files'   : [dataDir+'WJets_pt.root',],
                                 },
-
-        #'EWKW'              : { 'label'   : 'EWK W + 2jets',
-        #                        'datacard': 'ewk_w',
-        #                        'color'   : "#9370DB",
-        #                        'ordering': 4,
-        #                        'xsec'    : 1.0,
-        #                        'files'   : [dataDir+'WJets_EWK.root',],
-        #                        },       
 
         'Zvv'               : { 'label'   : 'Z#rightarrow#nu#nu', 
                                 'datacard': 'Zvv', 
                                 'color'   : "#B0C4DE",
                                 'ordering': 7,
                                 'xsec'    : 1.0,
-                                'files'   : [dataDir+"ZtoNuNu.root"],
+                                'files'   : [dataDir+"ZtoNuNu_pt.root"],
                                 },
 
-       #'EWKZ2Jets_ZToNuNu' : { 'label'    : 'EWK Z(#nu#nu) + 2jets',
-       #                        'datacard' : 'ewk_znn',
-       #                        'color'    : "#4682B4",
-       #                        'ordering' : 6,
-       #                        'xsec'     : 1.0,
-       #                        'files'    : [dataDir+'ZtoNuNu_EWK.root',],
-       #                        },       
-        
         'data'              : { 'label':'Data',
                                 'datacard':'data',
                                 'color': 1,

@@ -7,16 +7,17 @@ from ROOT import *
 from tdrStyle import *
 setTDRStyle()
 
-folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2/'
+folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v6/'
 
-dataDir = "/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/"
+dataDir = '/desktop/05a/v2/fittingnlo/'
+#"/eos/cms/store/group/phys_exotica/monojet/zdemirag/vbf_panda/vbf_004_7/"
 #"/afs/cern.ch/work/z/zdemirag/public/moriond17/setup80x/vbf_panda/vbf_004_5/"
 
-file0 = TFile(dataDir+"ZtoNuNu.root","READ")
+file0 = TFile(dataDir+"ZtoNuNu_nlo.root","READ")
 tree0 = file0.Get("events")
 
 cuts = "(metFilter==1 && egmFilter==1 && dphipfmet>0.5 && nLooseLep==0 && nLoosePhoton==0 && fabs(calomet-pfmet)/pfmet<0.5&&jet1Pt>100 && fabs(jet1Eta)<2.4 && jet1IsTight==1 && nTau==0 && jetNMBtags==0"
-weights = "(sf_pu*sf_tt*normalizedWeight*sf_lepID*sf_lepIso*sf_lepTrack*sf_ewkV*sf_qcdV*sf_metTrig)"
+weights = "(sf_pu*sf_tt*normalizedWeight*sf_lepID*sf_lepIso*sf_lepTrack*sf_ewkV*sf_metTrig)"
 
 #genptbins = [250.0, 300.0, 350.0, 400.0, 500.0, 1000.0, 2000.0]
 #ptbins    = [250.0, 275.0, 300.0, 325.0, 350.0, 375.0, 400.0, 450.0, 500.0, 750.0, 1000.0, 1500.0, 2000.0]

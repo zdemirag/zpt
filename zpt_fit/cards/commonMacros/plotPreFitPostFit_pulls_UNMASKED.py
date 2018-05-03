@@ -1,6 +1,6 @@
 from ROOT import *
 from collections import defaultdict
-import math
+from math import *
 from array import array
 from tdrStyle import *
 setTDRStyle()
@@ -13,9 +13,11 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
 
   datalab = {"singlemuon":"Wmn", "signal":"signal", "singleelectron":"Wen"}
 
-  f_mlfit = TFile('mlfit.root','READ')
+  folder = "/home/zdemirag/cms_2017/zpt/CMSSW_8_1_0/src/analysis/zpt_fit/cards/v6/"
 
-  f_data = TFile("mono-x.root","READ")
+  f_mlfit = TFile(folder+'fitDiagnostics.root','READ')
+
+  f_data = TFile(folder+"mono-x.root","READ")
   f_data.cd("category_"+category)
   h_data = gDirectory.Get(datalab[region]+"_data")
 
@@ -34,14 +36,14 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   h_signal2_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat2")
   h_signal3_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat3")
   h_signal4_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat4")
-  #h_signal5_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat5")
+  h_signal5_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat5")
   #h_signal6_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat6")
 
   h_signal0_pre.Add(h_signal1_pre)
   h_signal0_pre.Add(h_signal2_pre)
   h_signal0_pre.Add(h_signal3_pre)
   h_signal0_pre.Add(h_signal4_pre)
-  #h_signal0_pre.Add(h_signal5_pre)  
+  h_signal0_pre.Add(h_signal5_pre)  
   #h_signal0_pre.Add(h_signal6_pre)  
 
   print "ZEEEE", h_signal0_pre.Integral()
@@ -53,14 +55,14 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   h_signal2 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat2")
   h_signal3 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat3")
   h_signal4 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat4")
-  #h_signal5 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat5")
+  h_signal5 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat5")
   #h_signal6 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat6")
 
   h_signal0.Add(h_signal1)
   h_signal0.Add(h_signal2)
   h_signal0.Add(h_signal3)
   h_signal0.Add(h_signal4)
-  #h_signal0.Add(h_signal5)
+  h_signal0.Add(h_signal5)
   #h_signal0.Add(h_signal6)
 
   processes = [
@@ -227,7 +229,7 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   dummy.GetXaxis().SetTitleSize(0)
   dummy.GetXaxis().SetLabelSize(0)
   if region is 'signal':
-    dummy.SetMaximum(50*dummy.GetMaximum())
+    dummy.SetMaximum(1e3*dummy.GetMaximum())
   else:
     dummy.SetMaximum(25*dummy.GetMaximum())
   #dummy.SetMaximum(dummy.GetMaximum())
@@ -508,12 +510,12 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
     if setPull:
       dummy2.GetXaxis().SetTitle("")
     else:
-      dummy2.GetXaxis().SetTitle("E_{T}^{miss} [GeV]")
+      dummy2.GetXaxis().SetTitle("p_{T}^{miss} [GeV]")
   else:
     if setPull:
       dummy2.GetXaxis().SetTitle("")
     else:
-      dummy2.GetXaxis().SetTitle("Hadronic Recoil [GeV]")
+      dummy2.GetXaxis().SetTitle("Hadronic recoil p_{T} [GeV]")
   
   dummy2.SetLineColor(0)
   dummy2.SetMarkerColor(0)
@@ -523,9 +525,9 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   #if region is 'signal':
   dummy2.GetYaxis().SetLabelSize(0.03)
   dummy2.GetXaxis().SetLabelSize(0)
-  dummy2.GetYaxis().SetNdivisions(5);
+  #dummy2.GetYaxis().SetNdivisions(5);
   #dummy2.GetYaxis().SetNdivisions(0);
-  #dummy2.GetYaxis().SetNdivisions(510);
+  dummy2.GetYaxis().SetNdivisions(510);
   #dummy2.GetXaxis().SetNdivisions(510)
   dummy2.GetYaxis().CenterTitle()
   dummy2.GetYaxis().SetTitleSize(0.03)
@@ -637,7 +639,7 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
 
         addedsqrt +=  (data_pull.GetBinContent(hbin)*data_pull.GetBinContent(hbin))/(h_postfit['totalv2'].GetBinError(hbin)*h_postfit['totalv2'].GetBinError(hbin))
         
-        sigma = math.sqrt(h_postfit['totalv2'].GetBinError(hbin)* h_postfit['totalv2'].GetBinError(hbin) + h_data.GetBinError(hbin)*h_data.GetBinError(hbin))
+        sigma = sqrt(h_postfit['totalv2'].GetBinError(hbin)* h_postfit['totalv2'].GetBinError(hbin) + h_data.GetBinError(hbin)*h_data.GetBinError(hbin))
         
         data_pull.SetBinContent(hbin,data_pull.GetBinContent(hbin)/sigma)
       #data_pull.SetBinContent(hbin,data_pull.GetBinContent(hbin)/h_postfit['totalv2'].GetBinError(hbin))
@@ -651,7 +653,7 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
     data_pull.SaveAs("test.root")
       
     print "MEAN: ", mean
-    print "CHI2: ", math.sqrt(chi2)/data_pull.GetNbinsX()
+    print "CHI2: ", sqrt(chi2)/data_pull.GetNbinsX()
     
     print "Added2", addedsqrt, "divided: ", addedsqrt/data_pull.GetNbinsX()
     
@@ -690,11 +692,11 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
     dummy3 = TH1F("dummy3","dummy3",len(binLowE)-1,array('d',binLowE))
     for i in range(1,dummy3.GetNbinsX()):
       dummy3.SetBinContent(i,1.0)
-    dummy3.GetYaxis().SetTitle("#frac{(Data-Pred.)}{#sigma}")
+    dummy3.GetYaxis().SetTitle("#frac{(Data-Pred.)}{Unc.}")
     if region in 'signal':
-      dummy3.GetXaxis().SetTitle("E_{T}^{miss} [GeV]")
+      dummy3.GetXaxis().SetTitle("p_{T}^{miss} [GeV]")
     else:
-      dummy3.GetXaxis().SetTitle("Hadronic Recoil [GeV]")
+      dummy3.GetXaxis().SetTitle("Hadronic recoil p_{T} [GeV]")
     dummy3.SetLineColor(0)
     dummy3.SetMarkerColor(0)
     dummy3.SetLineWidth(0)
@@ -735,12 +737,11 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
     
     gPad.RedrawAxis()
 
-
-  folder ="/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2/"
-  c.SaveAs(folder+"/PULLS_prefit_postfit_"+region+".pdf")
-  c.SaveAs(folder+"/PULLS_prefit_postfit_"+region+".png")
-  c.SaveAs(folder+"/PULLS_prefit_postfit_"+region+".C")
-  c.SaveAs(folder+"/PULLS_prefit_postfit_"+region+".root")
+  folder2 ="/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v6/"
+  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+".pdf")
+  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+".png")
+  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+".C")
+  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+".root")
 
 
 plotPreFitPostFit("singlemuon","monojet", setPull=True)

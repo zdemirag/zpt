@@ -1,0 +1,2096 @@
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+   r_zcat2 :    +1.081   -0.051/+0.058 (68%)
+   r_zcat3 :    +1.065   -0.054/+0.060 (68%)
+   r_zcat0 :    +1.045   -0.278/+0.285 (68%)
+   r_zcat1 :    +1.125   -0.056/+0.063 (68%)
+   r_zcat4 :    +1.042   -0.053/+0.060 (68%)
+   r_zcat5 :    +0.962   -0.074/+0.082 (68%)
+Done in 0.23 min (cpu), 0.23 min (real)
+Have POIs: ['r_zcat2', 'r_zcat3', 'r_zcat0', 'r_zcat1', 'r_zcat4', 'r_zcat5']
+Have nuisance parameters: 101
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  CMS_eff_btag :   +0.043  -1.034/+0.960  +0.013/-0.009  +0.013/-0.009  +0.012/-0.008  +0.013/-0.009  +0.012/-0.009  +0.012/-0.008
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  CMS_eff_e :   +0.058  -0.838/+0.846  -0.000/+0.004  -0.000/+0.003  +0.006/-0.001  -0.002/+0.005  +0.000/+0.003  +0.001/+0.002
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  CMS_eff_e_reco :   +0.048  -0.977/+0.945  +0.002/+0.003  +0.002/+0.003  +0.005/-0.000  +0.001/+0.004  +0.002/+0.003  +0.002/+0.002
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter       :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  CMS_eff_eletrig :   +0.058  -0.838/+0.845  -0.001/+0.005  -0.001/+0.004  +0.005/-0.001  -0.003/+0.006  -0.000/+0.004  +0.000/+0.003
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  CMS_eff_m :   -0.013  -0.964/+0.955  -0.002/+0.005  -0.001/+0.004  -0.013/+0.017  -0.004/+0.006  -0.000/+0.003  +0.000/+0.002
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter      :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  CMS_eff_m_reco :   -0.013  -0.965/+0.956  -0.001/+0.006  -0.001/+0.005  -0.012/+0.016  -0.003/+0.007  +0.001/+0.004  +0.001/+0.003
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter   :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  CMS_scale_j :   +0.011  -1.008/+0.987  +0.045/-0.038  +0.045/-0.039  +0.040/-0.027  +0.046/-0.040  +0.044/-0.038  +0.042/-0.037
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  met_trig  :   -0.012  -0.984/+1.010  +0.012/-0.009  +0.012/-0.009  +0.010/-0.007  +0.012/-0.010  +0.012/-0.009  +0.011/-0.009
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  QCD_norm  :   -0.017  -1.001/+0.983  +0.001/-0.000  -0.001/+0.001  -0.000/-0.006  +0.001/-0.001  -0.000/+0.001  -0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  QCD_NormEleR :   -0.049  -0.906/+0.843  +0.000/+0.004  +0.001/+0.003  -0.024/+0.040  -0.000/+0.004  +0.001/+0.003  +0.001/+0.003
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter     :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  QCD_NormMuonR :   -0.033  -0.924/+0.872  -0.002/+0.008  -0.001/+0.007  +0.008/-0.006  -0.005/+0.012  -0.001/+0.007  -0.000/+0.005
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter  :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  lumi_13TeV :   +0.038  -1.034/+0.960  +0.030/-0.025  +0.029/-0.026  +0.027/-0.022  +0.030/-0.026  +0.029/-0.025  +0.028/-0.024
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter     :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  top_Norm13TeV :   +0.037  -1.008/+0.987  +0.000/+0.002  +0.000/+0.001  +0.001/+0.000  -0.001/+0.002  +0.000/+0.001  +0.001/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter         :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  top_Reweight13TeV :   +0.037  -1.007/+0.987  +0.002/+0.003  +0.002/+0.002  +0.005/+0.002  +0.001/+0.003  +0.002/+0.002  +0.002/+0.002
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter    :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  vv_Norm13TeV :   +0.012  -0.993/+0.992  +0.002/-0.003  +0.004/-0.004  -0.003/+0.004  +0.002/-0.003  +0.004/-0.006  +0.009/-0.011
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter     :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  zll_Norm13TeV :   -0.049  -0.980/+0.988[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.002  +0.001/+0.002  -0.003/+0.009  +0.001/+0.002  +0.002/+0.002  +0.002/+0.001
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin1 :   -0.000  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.002  +0.001/+0.000  +0.001/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin2 :   +0.000  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.003  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin3 :   +0.000  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.002  +0.000/+0.000  +0.001/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin4 :   -0.000  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.001/+0.000  +0.002/+0.002  +0.001/+0.000  +0.001/+0.000  +0.001/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin5 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.002  +0.000/+0.001  +0.002/+0.003  +0.000/+0.001  +0.000/+0.002  +0.000/+0.002
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin6 :   -0.000  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.001  +0.000/+0.000  +0.001/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin7 :   -0.001  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin8 :   +0.020  -0.998/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.001  +0.003/+0.001  +0.000/+0.001  +0.001/+0.001  +0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin9 :   -0.032  -0.994/+1.000[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.001  +0.000/+0.000  +0.001/+0.002  +0.000/+0.000  +0.000/+0.000  +0.004/-0.003
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter               :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets5_bin10 :   +0.058  -0.995/+0.996[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.000  +0.000/+0.000  +0.002/+0.000  +0.000/+0.000  +0.000/+0.000  +0.001/-0.001
+Done in 0.03 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin1 :   -0.000  -0.998/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.001/+0.000  +0.001/+0.002  +0.000/+0.000  +0.001/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin2 :   -0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.002  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin3 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.002  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin4 :   -0.003  -0.998/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin5 :   +0.020  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.001/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin6 :   -0.048  -0.995/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.001  +0.001/-0.001  +0.000/+0.003  +0.000/+0.000  +0.000/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin7 :   -0.162  -0.995/+0.990[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.001  +0.002/+0.003  +0.000/+0.000  +0.004/-0.003  -0.001/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_btag --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P CMS_eff_btag --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_e --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P CMS_eff_e --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_e_reco --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P CMS_eff_e_reco --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_eletrig --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P CMS_eff_eletrig --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_m --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P CMS_eff_m --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_m_reco --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P CMS_eff_m_reco --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_scale_j --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P CMS_scale_j --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_met_trig --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P met_trig --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_QCD_norm --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P QCD_norm --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_QCD_NormEleR --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P QCD_NormEleR --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_QCD_NormMuonR --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P QCD_NormMuonR --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_lumi_13TeV --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P lumi_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_top_Norm13TeV --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P top_Norm13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_top_Reweight13TeV --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P top_Reweight13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_vv_Norm13TeV --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P vv_Norm13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_zll_Norm13TeV --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P zll_Norm13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin1 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin2 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin3 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin3 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin4 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin4 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin5 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin5 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin6 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin6 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin7 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin7 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin8 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin8 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin9 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets5_bin10 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets5_bin10 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin1 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin2 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin3 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin3 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin4 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin4 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin5 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin5 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin6 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin6 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin7 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin7 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _par <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin8 :   +0.225  -0.989/+0.989[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.000  -0.000/+0.001  +0.004/-0.001  +0.000/+0.000  +0.001/-0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin9 :   -0.018  -0.996/+0.999[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.001/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.001  +0.002/-0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter               :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets4_bin10 :   -0.000  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin1 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.001  +0.002/+0.002  +0.000/+0.001  +0.000/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin2 :   -0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.000/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin3 :   +0.003  -0.998/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.000  -0.000/+0.001  +0.001/+0.003  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin4 :   -0.031  -0.997/+0.996[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/-0.000  -0.001/+0.001  +0.008/-0.006  -0.000/+0.001  +0.001/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin5 :   +0.173  -0.986/+0.992[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.002/-0.001  +0.004/-0.001  +0.000/+0.000  -0.000/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin6 :   -0.123  -0.985/+0.984[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  -0.000/+0.000  +0.002/-0.002  +0.000/-0.000  -0.000/+0.000  -0.000/+0.000  -0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin7 :   -0.095  -0.999/+0.992[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.002/+0.001  +0.001/+0.001  +0.001/+0.001  +0.001/+0.000  +0.003/-0.001  +0.001/+0.001
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin8 :   +0.006  -0.998/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.002  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin9 :   +0.000  -0.998/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter               :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets3_bin10 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin1 :   -0.001  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.002  +0.000/+0.001  +0.006/-0.004  +0.000/+0.001  +0.000/+0.001  +0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin2 :   -0.003  -0.998/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  -0.000/+0.001  +0.000/-0.000  -0.012/+0.014  +0.001/-0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin3 :   +0.020  -0.994/+0.993[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.001  +0.000/+0.001  -0.008/+0.009  +0.001/-0.000  +0.001/+0.000  +0.000/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin4 :   -0.083  -0.993/+0.993[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.002/-0.000  +0.000/+0.001  +0.018/-0.014  -0.001/+0.001  +0.001/+0.000  +0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin5 :   +0.136  -0.990/+0.994[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.002  +0.002/-0.000  +0.002/+0.001  +0.000/+0.001  -0.000/+0.002  +0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin6 :   -0.030  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.001  +0.001/-0.000  -0.000/+0.002  +0.000/+0.000  +0.000/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin7 :   -0.007  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.002  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin8 :   +0.000  -0.997/+0.999[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.002  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin9 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter               :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets2_bin10 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin1 :   -0.007  -0.992/+1.002[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  -0.000/+0.001  -0.001/+0.001  +0.067/-0.063  -0.001/+0.001  -0.001/+0.002  -0.001/+0.002
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin2 :   -0.018  -0.989/+0.990[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.002/-0.001  -0.061/+0.063  +0.003/-0.002  +0.002/-0.000  +0.002/-0.001
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin3 :   +0.025  -0.990/+0.990[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.000  -0.000/+0.001  -0.008/+0.014  +0.001/+0.000  +0.001/+0.000  +0.000/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin4 :   -0.022  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.000  +0.000/+0.000  +0.008/-0.002  +0.000/+0.001  +0.001/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin5 :   +0.008  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.002  +0.000/+0.000  +0.000/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin6 :   -0.002  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.002  +0.000/+0.000  +0.001/+0.001  +0.001/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin7 :   -0.000  -0.998/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.002  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin8 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+amFit_Test_stat_signalzjets4_bin8 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin8 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin9 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets4_bin10 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets4_bin10 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin1 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin2 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin3 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin3 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin4 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin4 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin5 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin5 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin6 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin6 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin7 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin7 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin8 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin8 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin9 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets3_bin10 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets3_bin10 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin1 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin2 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin3 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin3 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin4 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin4 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin5 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin5 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin6 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin6 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin7 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin7 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin8 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin8 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin9 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets2_bin10 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets2_bin10 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin1 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin2 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin3 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin3 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin4 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin4 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin5 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin5 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin6 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin6 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin7 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin7 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin8 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin8 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin9 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim. <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin9 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter               :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets1_bin10 :   +0.000  -0.997/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.001  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin1 :   +0.000  -0.998/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.001  +0.023/-0.017  +0.000/+0.001  +0.000/+0.001  +0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin2 :   -0.004  -0.995/+0.996[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.001  +0.000/+0.000  -0.010/+0.013  +0.001/+0.000  +0.000/+0.001  +0.001/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin3 :   +0.005  -0.998/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.001  -0.001/+0.004  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.05 min (cpu), 0.05 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin4 :   -0.014  -0.998/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.000  +0.000/+0.000  +0.005/-0.001  -0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin5 :   +0.035  -0.996/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.001/+0.000  -0.001/+0.006  +0.000/+0.000  +0.000/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin6 :   -0.024  -0.996/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.001/-0.000  +0.003/+0.001  +0.000/+0.000  +0.000/+0.001  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin7 :   -0.033  -0.998/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.004/-0.001  +0.000/+0.000  +0.001/-0.000  +0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin8 :   +0.041  -0.998/+0.997[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  -0.002/+0.006  +0.000/+0.000  +0.001/+0.000  +0.000/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter              :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin9 :   -0.007  -0.996/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.001  +0.002/-0.000  +0.000/+0.001  +0.000/+0.001  +0.001/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter               :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  stat_signalzjets0_bin10 :   +0.013  -0.997/+0.998[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.001/+0.003  +0.000/+0.000  +0.000/+0.000  +0.000/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin0 :   +0.276  -0.899/+0.891[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.003  -0.000/+0.003  +0.070/-0.068  -0.000/+0.003  -0.001/+0.003  -0.001/+0.003
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin1 :   -0.055  -0.882/+0.882  +0.002/+0.001  +0.004/-0.001  -0.064/+0.063  +0.005/-0.002  +0.003/-0.000  +0.004/-0.001
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin2 :   +0.005  -0.886/+0.890[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.002/+0.000  +0.000/+0.001  -0.014/+0.018  +0.002/-0.001  +0.001/+0.000  +0.001/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin3 :   -0.424  -0.879/+0.871[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.003/-0.001  -0.000/+0.002  +0.022/-0.020  -0.001/+0.003  +0.001/+0.001  +0.000/+0.001
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin4 :   +0.155  -0.860/+0.863[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  -0.000/+0.001  +0.002/-0.001  +0.002/+0.002  -0.000/+0.001  -0.001/+0.002  +0.000/+0.001
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin5 :   -0.042  -0.856/+0.866[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.004/-0.002  -0.003/+0.007  +0.002/+0.000  +0.001/+0.001  +0.002/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin6 :   +0.379  -0.865/+0.869[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  -0.000/+0.003  +0.000/+0.000  +0.003/-0.002  -0.001/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin7 :   -0.501  -0.942/+0.941  +0.000/+0.000  -0.000/+0.000  +0.000/-0.000  -0.000/+0.000  +0.001/-0.001  +0.000/-0.000
+Done in 0.02 min (cpu), 0.02 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin8 :   +0.259  -0.952/+0.948[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.002  +0.000/+0.000  +0.000/+0.001  +0.003/-0.002
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                            :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singlemuonCR_bin9 :   -0.085  -0.950/+0.954[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.001  +0.000/+0.000  +0.002/+0.001  +0.000/+0.000  +0.000/+0.000  +0.001/-0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin0 :   -0.329  -0.847/+0.879[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  -0.000/+0.001  -0.001/+0.001  +0.047/-0.043  -0.001/+0.001  -0.000/+0.001  -0.001/+0.002
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin1 :   +0.026  -0.851/+0.864[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.002  +0.001/+0.000  -0.049/+0.052  +0.003/-0.002  +0.001/+0.001  +0.001/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin2 :   +0.043  -0.860/+0.885[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.000  -0.000/+0.001  -0.012/+0.015  +0.001/-0.000  +0.001/+0.001  +0.000/+0.000
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin3 :   +0.270  -0.855/+0.866[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.003/-0.001  +0.000/+0.001  +0.020/-0.016  -0.001/+0.002  +0.001/+0.001  +0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin4 :   +0.200  -0.837/+0.859[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.002/-0.002  +0.003/+0.000  +0.000/+0.001  -0.000/+0.001  +0.001/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin5 :   -0.148  -0.840/+0.859[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.002  +0.002/-0.001  -0.002/+0.005  +0.000/+0.001  +0.000/+0.002  +0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin6 :   -0.630  -0.850/+0.864[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.000/+0.001  +0.000/+0.000  +0.002/+0.001  +0.000/+0.000  +0.002/-0.002  -0.000/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin7 :   +0.675  -0.934/+0.934  +0.000/+0.000  -0.000/+0.000  +0.000/-0.000  -0.000/+0.000  +0.001/-0.000  +0.000/-0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets1_bin10 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets1_bin10 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin1 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin2 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin3 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin3 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin4 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin4 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin5 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin5 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin6 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin6 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin7 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin7 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin8 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin8 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin9 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_stat_signalzjets0_bin10 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P stat_signalzjets0_bin10 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin0 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin0 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin1 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin2 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin3 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin3 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin4 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin4 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin5 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin5 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin6 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin6 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin7 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin7 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin8 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin8 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singlemuonCR_bin9 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singlemuonCR_bin9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin0 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin0 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin1 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin1 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin2 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin2 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin3 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin3 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin4 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin4 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin5 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin5 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin6 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin6 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin7 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin7 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin8 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin8 :   -0.305  -0.952/+0.954  +0.000/+0.000  -0.000/-0.000  +0.000/+0.000  -0.000/+0.000  +0.000/+0.000  +0.002/-0.002
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter                                :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  monojet_stat_error_singleelectronCR_bin9 :   +0.141  -0.943/+0.947[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+[WARNING] Minimisation finished with status 1 (covariance forced positive definite), this could indicate a problem with the minimim!
+  +0.001/+0.001  +0.000/+0.000  +0.002/+0.002  +0.000/+0.000  +0.000/+0.001  +0.001/-0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  mettrig   :   -0.116  -0.947/+0.936  +0.004/+0.000  +0.003/+0.000  +0.033/-0.030  +0.013/-0.010  +0.000/+0.003  +0.001/+0.003
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  wtowpdf   :   +0.127  -1.001/+0.938  +0.010/-0.008  +0.004/-0.002  +0.008/-0.006  +0.001/+0.001  +0.003/-0.001  +0.002/+0.000
+Done in 0.03 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  eveto     :   -0.007  -0.993/+0.999  +0.002/-0.000  +0.002/+0.000  +0.003/-0.002  +0.003/-0.001  +0.002/+0.001  +0.001/+0.001
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  muveto    :   -0.018  -0.993/+1.001  +0.003/-0.001  +0.002/-0.001  +0.008/-0.007  +0.004/-0.003  +0.001/+0.001  +0.000/+0.001
+Done in 0.04 min (cpu), 0.04 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r_zcat2        r_zcat3        r_zcat0        r_zcat1        r_zcat4        r_zcat5      
+  tauveto   :   -0.053  -0.964/+1.029  +0.008/-0.004  +0.007/-0.003  +0.018/-0.015  +0.010/-0.006  +0.006/-0.002  +0.004/-0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+zcat5 -P monojet_stat_error_singleelectronCR_bin8 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_monojet_stat_error_singleelectronCR_bin9 --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P monojet_stat_error_singleelectronCR_bin9 --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_mettrig --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P mettrig --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_wtowpdf --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P wtowpdf --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_eveto --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P eveto --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_muveto --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P muveto --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+>> combine -M MultiDimFit -n _paramFit_Test_tauveto --algo impact --redefineSignalPOIs r_zcat2,r_zcat3,r_zcat0,r_zcat1,r_zcat4,r_zcat5 -P tauveto --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 -m 125 -d zpt_multidim.root
+Have POIs: ['r_zcat2', 'r_zcat3', 'r_zcat0', 'r_zcat1', 'r_zcat4', 'r_zcat5']
+Have nuisance parameters: 101
+Info in <TCanvas::Print>: pdf file ./impacts_rz2.pdf has been created
+TCanvas::Constructor:0: RuntimeWarning: Deleting canvas with same name: impacts_rz2
+Info in <TCanvas::Print>: Current canvas added to pdf file ./impacts_rz2.pdf
+TCanvas::Constructor:0: RuntimeWarning: Deleting canvas with same name: impacts_rz2
+Info in <TCanvas::Print>: Current canvas added to pdf file ./impacts_rz2.pdf
+>> Doing page 0, have 35 parameters
+>> Doing page 1, have 35 parameters
+>> Doing page 2, have 31 parameters

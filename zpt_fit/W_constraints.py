@@ -61,10 +61,8 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   # Statistical uncertainties too!, one per bin 
   for b in range(targetmc.GetNbinsX()):
     err = WScales.GetBinError(b+1)
-    #print "ZEYNEP MISSING:", b+1, WScales.GetBinContent(b+1), err
     if not WScales.GetBinContent(b+1)>0: continue 
     relerr = err/WScales.GetBinContent(b+1)
-    #print "ZEYNEP MISSING:", b+1, WScales.GetBinContent(b+1), err, relerr
     if relerr<0.001: continue
     byb_u = WScales.Clone(); byb_u.SetName("wmn_weights_%s_%s_stat_error_%s_bin%d_Up"%(cid,cid,"singlemuonCR",b))
     byb_u.SetBinContent(b+1,WScales.GetBinContent(b+1)+err)
@@ -92,7 +90,7 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
 
 
   tag = ""
-  fztoz_trig = r.TFile.Open("misc/trigger_ratio.root") 
+  fztoz_trig = r.TFile.Open("misc/trigger_ratio_newbin.root") 
 
   ## Here now adding the trigger uncertainty
   wtow_trig_down = fztoz_trig.Get("trig_sys_down"+tag)
@@ -121,7 +119,7 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   CRs[1].add_nuisance_shape("mettrig",_fOut)
 
 
-  fwtowpdf = r.TFile.Open("misc/wtow_pdf_sys.root")                                                                                               
+  fwtowpdf = r.TFile.Open("misc/wtow_pdf_sys_newbin.root")                                                                                               
 
   wtow_pdf_down   = fwtowpdf.Get("ratio_Down"+tag)
   ratio_wtowpdf_down = targetmc.Clone();  ratio_wtowpdf_down.SetName("wmn_weights_%s_wtowpdf_Down"%cid);
@@ -151,7 +149,8 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   CRs[1].add_nuisance_shape("wtowpdf",_fOut)
 
   ## Veto uncertainties  
-  fwtowveto = r.TFile.Open("misc/veto_sys.root")
+  #fwtowveto = r.TFile.Open("misc/veto_sys.root")
+  fwtowveto = r.TFile.Open("misc/veto_sys_newbin.root")
 
   ## Wmuon CR first
   veto_el_up       = fwtowveto.Get("eleveto"+tag)
@@ -223,7 +222,6 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   CRs[1].add_nuisance_shape("muveto",_fOut)
   CRs[1].add_nuisance_shape("tauveto",_fOut)
   
-
 
   #######################################################################################################
 

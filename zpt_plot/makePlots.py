@@ -7,17 +7,18 @@ from LoadData import *
 #from LoadElectron import *
 
 #channel_list = ['Wen']
-#channel_list = ['signal']
-channel_list  = ['Wmn']
+channel_list = ['signal']
+#channel_list  = ['Wmn']
 #channel_list = ['signal','Wmn']
 
-lumi=35800. 
+lumi=35900. 
 lumi_str = 35.9
 
 blind = False
 vbf = False
 vtag = False
 shapelimits = False
+postfit = True
 
 from ROOT import *
 from math import *
@@ -36,7 +37,7 @@ print "Starting Plotting Be Patient!"
 
 def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False):
 
-    folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v2/newboson/'
+    folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/greenlight/postfit/'
 
     if not os.path.exists(folder):
         os.mkdir(folder)
@@ -46,7 +47,7 @@ def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False
     stack = THStack('a', 'a')
     if var.startswith('pfmet') or var.startswith('pfU'):
     #if var.startswith('pfU'):
-        binLowE = [ 250.0, 300.0, 350.0, 400.0, 500.0, 750.0, 1000.0, 1500.0]            
+        binLowE = [250,275,300,350,400,450,500,650,800,1150,1500]
         nb = len(binLowE)-1
         added = TH1D('added','added',nb,array('d',binLowE))
     else:
@@ -81,7 +82,7 @@ def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False
 
         if var.startswith('pfmet') or var.startswith('pfU'):
         #if var.startswith('pfU'):
-            binLowE = [ 250.0, 300.0, 350.0, 400.0, 500.0, 750.0, 1000.0, 1500.0]
+            binLowE = [250,275,300,350,400,450,500,650,800,1150,1500]
             #binLowE = [200,250,300,350,400,500,600,750,1000]
             n2 = len(binLowE)-1
             Variables[Type] = TH1F(histName,histName,n2,array('d',binLowE))
@@ -100,6 +101,11 @@ def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False
 
         print Type, common_weight, scale
 
+        if postfit and Type is "Zvv":
+            post_weight = " ( (genBosonPt<200) * 1.045 + (genBosonPt>=200 && genBosonPt<300) * 1.125  + (genBosonPt>=300 && genBosonPt<400) * 1.081  + (genBosonPt>=400 && genBosonPt<500) * 1.065 + (genBosonPt>=500 && genBosonPt<800) * 1.042 + (genBosonPt>=800 && genBosonPt<1500) * 0.962) "
+        else:
+            post_weight = "1"
+
         if Type is not 'data' and Type is not 'signal_ggf' and Type is not 'signal_vbf':            
 
             Variables[Type].SetFillColor(TColor.GetColor(physics_processes[Type]['color']))
@@ -107,7 +113,7 @@ def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False
             Variables[Type].SetLineColor(1)        
 
 
-            makeTrees(Type,'events',channel).Draw(var + " >> " + histName,"(" + cut_standard+ " )"+common_weight,"goff")
+            makeTrees(Type,'events',channel).Draw(var + " >> " + histName,"(" + cut_standard+ " )"+common_weight+"*"+post_weight,"goff")
 
             if var == "pfmet" or var.startswith('pfU'):
             #if var.startswith('pfU'):
@@ -265,7 +271,7 @@ arguments['jet1eta']    = ['jet1eta','jet1Eta',25,-5,5,'Events','Leading Jet #et
 
 
 arguments['npv']        = ['npv','npv',50,0,50,'Events','Number of primary vertices',False]
-arguments['njet']       = ['nJet','nJet',10,0,10,'Events','Number of jets',False]
+arguments['njet']       = ['nJet','nJet',6,0,6,'Events','Number of jets',False]
 
 arguments['dphicalopf'] = ['dphicalopf','deltaPhi(calometphi,pfmetphi)',50,0,5,'Events','#Delta#phi_{calomet,pfmet}',False]
 arguments['mT']         = ['mT','mT',40,0,400,'Events/GeV','MT',True]
@@ -278,8 +284,8 @@ arguments['lep1eta']      = ['lep1eta','looseLep1Eta',25,-5,5,'Events','Leading 
 processes     = []
 
 #variable_list = ['jet1pt','jet1eta','pfmet','pfUWmag','dphipfmet','calomet','jet1phi','npv','njet','mT','lep1pt']
-#variable_list = ['pfmet','npv']
-variable_list = ['lep1eta']
+variable_list = ['pfmet','jet1pt','jet1eta','njet']
+#variable_list = ['pfUWmag','jet1pt','jet1eta','njet','lep1pt','lep1eta','mT']
 
 #if 'Zmm' in channel_list:
 #    variable_list = [x if x is 'met' else 'pfUZmag' for x in variable_list]

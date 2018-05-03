@@ -1,0 +1,18 @@
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 43
+Constraints of type SimpleGaussianConstraint: 43
+  [WARNING] Found [model_mu_cat_monojet_wjets_bin_10] at boundary. 
+  [WARNING] Found [model_mu_cat_monojet_wjets_bin_9] at boundary. 
+
+
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(shapeBkg_wjets_monojet_signal) evaluation error, 
+ origin       : RooParametricHist::shapeBkg_wjets_monojet_signal[ observable=met_monojet _pars=(model_mu_cat_monojet_wjets_bin_0,model_mu_cat_monojet_wjets_bin_1,model_mu_cat_monojet_wjets_bin_2,model_mu_cat_monojet_wjets_bin_3,model_mu_cat_monojet_wjets_bin_4,model_mu_cat_monojet_wjets_bin_5,model_mu_cat_monojet_wjets_bin_6,model_mu_cat_monojet_wjets_bin_7,model_mu_cat_monojet_wjets_bin_8,model_mu_cat_monojet_wjets_bin_9,model_mu_cat_monojet_wjets_bin_10) ]
+ message      : p.d.f value is less than zero (-0.000000), forcing value to zero
+ server values: observable=met_monojet=1750, _pars=(model_mu_cat_monojet_wjets_bin_0 = 33877.6 +/- 1329.03,model_mu_cat_monojet_wjets_bin_1 = 18408.7 +/- 761.69,model_mu_cat_monojet_wjets_bin_2 = 17554.4 +/- 809.846,model_mu_cat_monojet_wjets_bin_3 = 6318.03 +/- 337.159,model_mu_cat_monojet_wjets_bin_4 = 2737.29 +/- 154.363,model_mu_cat_monojet_wjets_bin_5 = 932.049 +/- 72.4701,model_mu_cat_monojet_wjets_bin_6 = 728.507 +/- 74.8703,model_mu_cat_monojet_wjets_bin_7 = 50.7234 +/- 16.292,model_mu_cat_monojet_wjets_bin_8 = 10.9736 +/- 6.57055,model_mu_cat_monojet_wjets_bin_9 = 0.000719907 +/- 0.0753419,model_mu_cat_monojet_wjets_bin_10 = -8.68911e-07 +/- 0.0455719)
+
+
+[#0] ERROR:Eval -- RooAbsReal::logEvalError(shapeBkg_wjets_monojet_signal) evaluation error, 
+ origin       : RooParametricHist::shapeBkg_wjets_monojet_signal[ observable=met_monojet _pars=(model_mu_cat_monojet_wjets_bin_0,model_mu_cat_monojet_wjets_bin_1,model_mu_cat_monojet_wjets_bin_2,model_mu_cat_monojet_wjets_bin_3,model_mu_cat_monojet_wjets_bin_4,model_mu_cat_monojet_wjets_bin_5,model_mu_cat_monojet_wjets_bin_6,model_mu_cat_monojet_wjets_bin_7,model_mu_cat_monojet_wjets_bin_8,model_mu_cat_monojet_wjets_bin_9,model_mu_cat_monojet_wjets_bin_10) ]
+ message      : p.d.f value is less than zero (-0.000000), forcing value to zero
+ server values: observable=met_monojet=1750, _pars=(model_mu_cat_monojet_wjets_bin_0 = 33877.6 +/- 1329.03,model_mu_cat_monojet_wjets_bin_1 = 18408.7 +/- 761.69,model_mu_cat_monojet_wjets_bin_2 = 17554.4 +/- 809.846,model_mu_cat_monojet_wjets_bin_3 = 6318.03 +/- 337.159,model_mu_cat_monojet_wjets_bin_4 = 2737.29 +/- 154.363,model_mu_cat_monojet_wjets_bin_5 = 932.049 +/- 72.4701,model_mu_cat_monojet_wjets_bin_6 = 728.507 +/- 74.8703,model_mu_cat_monojet_wjets_bin_7 = 50.7234 +/- 16.292,model_mu_cat_monojet_wjets_bin_8 = 10.9736 +/- 6.57055,model_mu_cat_monojet_wjets_bin_9 = 0.000719907 +/- 0.0753419,model_mu_cat_monojet_wjets_bin_10 = -8.68911e-07 +/- 0.0455719)
