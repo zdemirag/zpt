@@ -90,8 +90,8 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
 
 
   tag = ""
-  fztoz_trig = r.TFile.Open("misc/trigger_ratio_newbin.root") #multibin v7
-  #fztoz_trig = r.TFile.Open("misc/trigger_ratio_onebin.root") #onebin v8
+  #fztoz_trig = r.TFile.Open("misc/trigger_ratio_newbin.root") #multibin v7
+  fztoz_trig = r.TFile.Open("misc/trigger_ratio_onebin.root") #onebin v8
 
   ## Here now adding the trigger uncertainty
   wtow_trig_down = fztoz_trig.Get("trig_sys_down"+tag)
@@ -120,8 +120,8 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   CRs[1].add_nuisance_shape("mettrig",_fOut)
 
 
-  fwtowpdf = r.TFile.Open("misc/wtow_pdf_sys_newbin.root") #multibin v7
-  #fwtowpdf = r.TFile.Open("misc/wtow_pdf_sys_onebin.root") #onebin v8                                                                                 
+  #fwtowpdf = r.TFile.Open("misc/wtow_pdf_sys_newbin.root") #multibin v7
+  fwtowpdf = r.TFile.Open("misc/wtow_pdf_sys_onebin.root") #onebin v8                                                                                 
 
   wtow_pdf_down   = fwtowpdf.Get("ratio_Down"+tag)
   ratio_wtowpdf_down = targetmc.Clone();  ratio_wtowpdf_down.SetName("wmn_weights_%s_wtowpdf_Down"%cid);
@@ -151,8 +151,8 @@ def cmodel(cid,nam,_f,_fOut, out_ws, diag):
   CRs[1].add_nuisance_shape("wtowpdf",_fOut)
 
   ## Veto uncertainties  
-  fwtowveto = r.TFile.Open("misc/veto_sys_newbin.root")
-  #fwtowveto = r.TFile.Open("misc/veto_sys_onebin.root")
+  #fwtowveto = r.TFile.Open("misc/veto_sys_newbin.root")
+  fwtowveto = r.TFile.Open("misc/veto_sys_onebin.root")
 
   ## Wmuon CR first
   veto_el_up       = fwtowveto.Get("eleveto"+tag)

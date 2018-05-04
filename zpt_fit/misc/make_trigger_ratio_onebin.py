@@ -34,8 +34,6 @@ def makevariations(cat):
   zvv.Divide(zmm)
   zvv_up = zmm.Clone("down")
   for b in range(0,len(bins)):
-      if (b == zvv.FindBin(520) or b>zvv.FindBin(520)):
-          zvv.SetBinContent(b,1)
       zvv_up.SetBinContent(b,2-zvv.GetBinContent(b))
 
   zvv.SetName("trig_sys_down"+cat)

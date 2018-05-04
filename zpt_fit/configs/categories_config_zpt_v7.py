@@ -20,9 +20,9 @@ monojet_category = {
             ,"samples":
 	   	{  
 		  # Signal Region
-                  "Zvv_nlo_signal"           :['signal','zjets',1,0]
-                  ,"Zll_nlo_signal"           :['signal','zll',1,0]
-                  ,"Wlv_nlo_signal"           :['signal','wjets',1,0]
+                  "Zvv_nlo_signal"        :['signal','zjets',1,0]
+                  ,"Zll_nlo_signal"       :['signal','zll',1,0]
+                  ,"Wlv_nlo_signal"       :['signal','wjets',1,0]
                   ,"ttbar_signal"         :['signal','top',1,0]
                   ,"ST_signal"            :['signal','top',1,0]
                   ,"QCD_signal"           :['signal','qcd',1,0]
@@ -30,8 +30,8 @@ monojet_category = {
                   ,"Data_signal"          :['signal','data',0,0]
                                      
                   # Single muon-Control
-                  ,"Wlv_nlo_singlemuon"        :['Wmn','wjets',1,1]
-                  ,"Zll_nlo_singlemuon"        :['Wmn','zll',1,0]
+                  ,"Wlv_nlo_singlemuon"    :['Wmn','wjets',1,1]
+                  ,"Zll_nlo_singlemuon"    :['Wmn','zll',1,0]
                   ,"ttbar_singlemuon"      :['Wmn','top',1,0]
                   ,"ST_singlemuon"         :['Wmn','top',1,0]
                   ,"QCD_singlemuon"        :['Wmn','qcd',1,0]
@@ -39,8 +39,8 @@ monojet_category = {
                   ,"Data_singlemuon"       :['Wmn','data',0,0]
 
                   # Single electron-Control
-                  ,"Wlv_nlo_singleelectron"    :['Wen','wjets',1,1]
-                  ,"Zll_nlo_singleelectron"    :['Wen','zll',1,0]
+                  ,"Wlv_nlo_singleelectron":['Wen','wjets',1,1]
+                  ,"Zll_nlo_singleelectron":['Wen','zll',1,0]
                   ,"ttbar_singleelectron"  :['Wen','top',1,0]
                   ,"ST_singleelectron"     :['Wen','top',1,0]
                   ,"QCD_singleelectron"    :['Wen','qcd',1,0]

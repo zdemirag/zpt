@@ -1,5 +1,5 @@
 * this set of fits have the new fiducial binning consistent with the Zll analysis
-bins =[250,275,300,350,400,450,500,650,800,1150,1500]
+bins =[250,1500]
 
 * NLO samples
 

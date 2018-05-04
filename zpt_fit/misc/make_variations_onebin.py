@@ -67,9 +67,10 @@ def makevariations(model):
         hmj[i].SetBinContent(b,1-half_up)
         print b, bins[b], hmj_orig[i].GetBinContent(b), hmj[i].GetBinContent(b)
     else:
-      for b in range(0,len(bins)):
-        hmj_orig[i].SetBinContent(b,h[i].GetBinContent(h[i].FindBin(hmj[i].GetBinCenter(b))))
-        hmj[i].SetBinContent(b,2-h[i].GetBinContent(h[i].FindBin(hmj[i].GetBinCenter(b))))
+      for b in range(0,len(bins)):        
+        print b, bins[b], "orig", h[i].GetBinContent(h[i].FindBin(250)), h[i].FindBin(250)
+        hmj_orig[i].SetBinContent(b,h[i].GetBinContent(h[i].FindBin(250))) #h[i].GetBinContent(h[i].FindBin(hmj[i].GetBinCenter(b))))
+        hmj[i].SetBinContent(b,2-h[i].GetBinContent(h[i].FindBin(250)))#h[i].GetBinContent(h[i].FindBin(hmj[i].GetBinCenter(b))))
         print b, bins[b], hmj_orig[i].GetBinContent(b), hmj[i].GetBinContent(b)
 
     hmj[i].SetMaximum(1.1)
@@ -86,6 +87,6 @@ def makevariations(model):
 
 ################################
 
-makevariations("pdf")
+#makevariations("pdf")
 makevariations("trigger")
-makevariations("veto")
+#makevariations("veto")

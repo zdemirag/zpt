@@ -58,6 +58,9 @@ void ModelBuilder::save(){
 
   std::map<std::string, RooDataSet*>::iterator itd = save_datas.begin();
   for (;itd!=save_datas.end();itd++){
+    std::cout << "ZEYNEP *((*itd).second) "<< *((*itd).second) << std::endl;
+    TString workspacename(*((*itd).second)->GetName());
+    if (workspacename.Contains("Up") || workspacename.Contains("Down")) continue;
     if (!wspace->data((*itd).second->GetName())) wspace->import(*((*itd).second));
     // should also make the basic dataset into a histogram for each additional var
     for (std::map<std::string,TH1F*>::iterator additional_var = additional_vars.begin()

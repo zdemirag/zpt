@@ -34,7 +34,7 @@ for cat_id,cat in enumerate(x.categories):
   mb.setweight(cat['weightname'])
   mb._pdfmodel=cat['pdfmodel']
 
-  for avar in cat['additionalvars']: mb.addvariable(avar[0],avar[1],avar[2],avar[3])
+  #for avar in cat['additionalvars']: mb.addvariable(avar[0],avar[1],avar[2],avar[3])
 
   # create a template histogram from bins
   bins = cat["bins"]
@@ -60,14 +60,17 @@ for cat_id,cat in enumerate(x.categories):
             extD = "_%sDown"%syst
             print sample+extU, fin.Get(sample+extU)
             if fin.Get(sample+extU): 
-              #print " Adding systematic variation %s for %s "%(syst,sample)
-              mb.addSample(sample+extU,entry[0],entry[1]+extU,entry[2],entry[3],1)  # name, region, process, is_mc, is_signal
-            #else: print " No %s Up variation found for %s"%(syst,sample)
+              print " Adding systematic variation %s for %s "%(syst,sample)
+              mb.addSample(sample+extU,entry[0],entry[1]+extU,entry[2],entry[3],0)  # name, region, process, is_mc, is_signal, saveDataset
+              print " Added systematic variation %s for %s "%(syst,sample)
+            else: print " No %s Up variation found for %s"%(syst,sample)
             if fin.Get(sample+extD):
-              #print " Adding systematic variation %s for %s "%(syst,sample)
-              mb.addSample(sample+extD,entry[0],entry[1]+extD,entry[2],entry[3],1)  # name, region, process, is_mc, is_signal
-            #else: print " No %s Down variation found for %s"%(syst,sample)
-      except : 
+              print " Adding systematic variation %s for %s "%(syst,sample)
+              mb.addSample(sample+extD,entry[0],entry[1]+extD,entry[2],entry[3],0)  # name, region, process, is_mc, is_signal, saveDataset
+              print " Added systematic variation %s for %s "%(syst,sample)
+            else: print " No %s Down variation found for %s"%(syst,sample)
+      except Exception as e: 
+        print e
         print "No systematics were put in"
         noSys = True
   mb.save()
