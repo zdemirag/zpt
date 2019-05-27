@@ -1,0 +1,103 @@
+Combination of zll/datacard_Pt_ee.txt
+imax 1 number of bins
+jmax 7 number of processes minus 1
+kmax 78 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *         ch1       zll/datacard_Pt_ee.root histo_$PROCESS histo_$PROCESS_$SYSTEMATIC
+shapes data_obs  ch1       zll/datacard_Pt_ee.root histo_Data
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1    
+observation  39711.0
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                  ch1         ch1         ch1         ch1         ch1         ch1         ch1         ch1       
+process                              DY_4        DY_0        DY_1        DY_2        DY_3        NonFid      VV          Res       
+process                              -4          -3          -2          -1          0           1           2           3         
+rate                                 71.4392     26739.7242  5747.9000   1478.9888   725.1619    1207.8904   1055.0304   117.2102  
+----------------------------------------------------------------------------------------------------------------------------------
+DYStat_0_2ee            shape        -           1.0         -           -           -           -           -           -         
+DYStat_0_3ee            shape        -           1.0         -           -           -           -           -           -         
+DYStat_0_4ee            shape        -           1.0         -           -           -           -           -           -         
+DYStat_1_0ee            shape        -           -           1.0         -           -           -           -           -         
+DYStat_1_1ee            shape        -           -           1.0         -           -           -           -           -         
+DYStat_1_4ee            shape        -           -           1.0         -           -           -           -           -         
+DYStat_1_5ee            shape        -           -           1.0         -           -           -           -           -         
+DYStat_1_6ee            shape        -           -           1.0         -           -           -           -           -         
+DYStat_2_2ee            shape        -           -           -           1.0         -           -           -           -         
+DYStat_2_3ee            shape        -           -           -           1.0         -           -           -           -         
+DYStat_2_4ee            shape        -           -           -           1.0         -           -           -           -         
+DYStat_2_5ee            shape        -           -           -           1.0         -           -           -           -         
+DYStat_2_6ee            shape        -           -           -           1.0         -           -           -           -         
+DYStat_2_7ee            shape        -           -           -           1.0         -           -           -           -         
+DYStat_3_4ee            shape        -           -           -           -           1.0         -           -           -         
+DYStat_3_5ee            shape        -           -           -           -           1.0         -           -           -         
+DYStat_3_6ee            shape        -           -           -           -           1.0         -           -           -         
+DYStat_3_7ee            shape        -           -           -           -           1.0         -           -           -         
+DYStat_3_8ee            shape        -           -           -           -           1.0         -           -           -         
+DYStat_4_6ee            shape        1.0         -           -           -           -           -           -           -         
+DYStat_4_7ee            shape        1.0         -           -           -           -           -           -           -         
+DYStat_4_8ee            shape        1.0         -           -           -           -           -           -           -         
+DYStat_4_9ee            shape        1.0         -           -           -           -           -           -           -         
+LepEff2ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+LepEff3ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+LepEff4ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+LepEff5ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+LepEff6ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+LepEff7ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+MomRes1ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+MomRes2ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+NonFidStat_0ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_1ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_2ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_3ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_4ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_5ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_6ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_7ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_8ee          shape        -           -           -           -           -           1.0         -           -         
+NonFidStat_9ee          shape        -           -           -           -           -           1.0         -           -         
+PDF_DY0                 shape        -           1.0         -           -           -           -           -           -         
+PDF_DY1                 shape        -           -           1.0         -           -           -           -           -         
+PDF_DY2                 shape        -           -           -           1.0         -           -           -           -         
+PDF_DY3                 shape        -           -           -           -           1.0         -           -           -         
+PDF_DY4                 shape        1.0         -           -           -           -           -           -           -         
+PDF_NonFid              shape        -           -           -           -           -           1.0         -           -         
+QCDscale_DY0            shape        -           1.0         -           -           -           -           -           -         
+QCDscale_DY1            shape        -           -           1.0         -           -           -           -           -         
+QCDscale_DY2            shape        -           -           -           1.0         -           -           -           -         
+QCDscale_DY3            shape        -           -           -           -           1.0         -           -           -         
+QCDscale_DY4            shape        1.0         -           -           -           -           -           -           -         
+QCDscale_NonFid         shape        -           -           -           -           -           1.0         -           -         
+RecEff0ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+RecEff1ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+RecEff2ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+RecEff3ee               shape        1.0         1.0         1.0         1.0         1.0         1.0         1.0         -         
+ResStat_0ee             shape        -           -           -           -           -           -           -           1.0       
+ResStat_1ee             shape        -           -           -           -           -           -           -           1.0       
+ResStat_2ee             shape        -           -           -           -           -           -           -           1.0       
+ResStat_3ee             shape        -           -           -           -           -           -           -           1.0       
+ResStat_4ee             shape        -           -           -           -           -           -           -           1.0       
+ResStat_5ee             shape        -           -           -           -           -           -           -           1.0       
+ResStat_6ee             shape        -           -           -           -           -           -           -           1.0       
+VVStat_0ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_1ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_2ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_3ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_4ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_5ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_6ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_7ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_8ee              shape        -           -           -           -           -           -           1.0         -         
+VVStat_9ee              shape        -           -           -           -           -           -           1.0         -         
+lumi_13TeV              lnN          1.025       1.025       1.025       1.025       1.025       1.025       1.025       -         
+resNorm                 lnN          -           -           -           -           -           -           -           1.05      
+vvNormPDF               shape        -           -           -           -           -           -           1.0         -         
+vvNormQCD               shape        -           -           -           -           -           -           1.0         -         
+RDY_1 extArg 1.0 [0.0,2.0]
+RDY_2 extArg 1.0 [0.0,2.0]
+RDY_3 extArg 1.0 [0.0,2.0]
+RDY_4 extArg 1.0 [0.0,2.0]
+FR0 rateParam * DY_0 1+((1-@0)*(5747.900+0.106*(@1)+2.070*(@2)+1.291*(@3)+0.118*(@4)+0.030*(@5))+(1-@6)*(1478.989+0.088*(@7)+1.284*(@8)+5.050*(@9)+3.991*(@10)+0.910*(@11)+0.001*(@12))+(1-@13)*(725.162+0.082*(@14)+0.809*(@15)+3.992*(@16)+0.867*(@17)+0.074*(@18))+(1-@19)*(71.439+0.003*(@20)+0.073*(@21)+0.409*(@22)+0.119*(@23)))/(26739.724+2.287*(@24)+0.101*(@25)+0.010*(@26)) RDY_1,DYStat_1_0ee,DYStat_1_1ee,DYStat_1_4ee,DYStat_1_5ee,DYStat_1_6ee,RDY_2,DYStat_2_2ee,DYStat_2_3ee,DYStat_2_4ee,DYStat_2_5ee,DYStat_2_6ee,DYStat_2_7ee,RDY_3,DYStat_3_4ee,DYStat_3_5ee,DYStat_3_6ee,DYStat_3_7ee,DYStat_3_8ee,RDY_4,DYStat_4_6ee,DYStat_4_7ee,DYStat_4_8ee,DYStat_4_9ee,DYStat_0_2ee,DYStat_0_3ee,DYStat_0_4ee
+FR1 rateParam * DY_1 @0 RDY_1
+FR2 rateParam * DY_2 @0 RDY_2
+FR3 rateParam * DY_3 @0 RDY_3
+FR4 rateParam * DY_4 @0 RDY_4

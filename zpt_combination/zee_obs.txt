@@ -1,0 +1,21 @@
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 78
+Error: closed range without finding crossing.
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+   r_s4 :    +1.126   -0.060/+0.073 (68%)
+   r_s5 :    +1.173   -0.141/+0.168 (68%)
+   r_s0 :    +0.633   -0.633/+4.325 (68%)
+   r_s1 :    +1.112   -0.050/+0.063 (68%)
+   r_s2 :    +1.018   -0.047/+0.059 (68%)
+   r_s3 :    +1.099   -0.054/+0.063 (68%)
+Done in 0.07 min (cpu), 0.07 min (real)

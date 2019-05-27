@@ -1,0 +1,134 @@
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_s0,r_s1,RDY_1,RDY_2,RDY_3,RDY_4)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 147
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+    r_s0 :    +1.103   -0.046/+0.049 (68%)
+    r_s1 :    +0.658   -0.296/+0.228 (68%)
+   RDY_1 :    +0.942   -0.024/+0.026 (68%)
+   RDY_2 :    +1.005   -0.029/+0.032 (68%)
+   RDY_3 :    +0.991   -0.034/+0.039 (68%)
+   RDY_4 :    +1.034   -0.092/+0.104 (68%)
+Done in 0.41 min (cpu), 0.42 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_s0,r_s1,RDY_0,RDY_2,RDY_3,RDY_4)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 147
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+    r_s0 :    +1.103   -0.046/+0.049 (68%)
+    r_s1 :    +0.660   -0.298/+0.226 (68%)
+   RDY_0 :    +1.012   -0.007/+0.006 (68%)
+   RDY_2 :    +1.005   -0.029/+0.032 (68%)
+   RDY_3 :    +0.992   -0.034/+0.038 (68%)
+   RDY_4 :    +1.034   -0.092/+0.103 (68%)
+Done in 0.44 min (cpu), 0.44 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_s0,r_s1,RDY_1,RDY_2,RDY_3,RDY_4)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+    r_s0 :    +1.107   -0.059/+0.065 (68%)
+    r_s1 :    +1.069   -0.302/+0.509 (68%)
+   RDY_1 :    +0.979   -0.013/+0.014 (68%)
+   RDY_2 :    +0.964   -0.017/+0.017 (68%)
+   RDY_3 :    +0.942   -0.021/+0.021 (68%)
+   RDY_4 :    +0.871   -0.054/+0.055 (68%)
+Done in 0.46 min (cpu), 0.47 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_s0,r_s1,RDY_0,RDY_2,RDY_3,RDY_4)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 101
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+    r_s0 :    +1.108   -0.059/+0.064 (68%)
+    r_s1 :    +1.067   -0.299/+0.513 (68%)
+   RDY_0 :    +1.019   -0.008/+0.007 (68%)
+   RDY_2 :    +0.964   -0.017/+0.017 (68%)
+   RDY_3 :    +0.942   -0.021/+0.021 (68%)
+   RDY_4 :    +0.871   -0.054/+0.055 (68%)
+Done in 0.49 min (cpu), 0.49 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_s0,r_s1,r_s2,RDY_1,RDY_2,RDY_3,RDY_4)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 247
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+    r_s0 :    +1.109   -0.041/+0.043 (68%)
+    r_s1 :    +0.774   -0.202/+0.178 (68%)
+    r_s2 :    +0.921   -0.270/+0.366 (68%)
+   RDY_1 :    +0.963   -0.013/+0.014 (68%)
+   RDY_2 :    +0.969   -0.015/+0.015 (68%)
+   RDY_3 :    +0.944   -0.018/+0.018 (68%)
+   RDY_4 :    +0.904   -0.046/+0.047 (68%)
+Done in 3.09 min (cpu), 3.10 min (real)
+ <<< Combine >>> 
+>>> including systematics
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+ModelConfig 'ModelConfig' defines more than one parameter of interest. This is not supported in some statistical methods.
+RooArgSet:: = (r_s0,r_s1,r_s2,RDY_0,RDY_2,RDY_3,RDY_4)
+Computing results starting from observation (a-posteriori)
+Constraints of type SimpleGaussianConstraint: 247
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+    r_s0 :    +1.109   -0.041/+0.043 (68%)
+    r_s1 :    +0.774   -0.201/+0.179 (68%)
+    r_s2 :    +0.921   -0.270/+0.366 (68%)
+   RDY_0 :    +1.011   -0.003/+0.003 (68%)
+   RDY_2 :    +0.969   -0.015/+0.015 (68%)
+   RDY_3 :    +0.944   -0.018/+0.018 (68%)
+   RDY_4 :    +0.904   -0.046/+0.047 (68%)
+Done in 3.13 min (cpu), 3.14 min (real)

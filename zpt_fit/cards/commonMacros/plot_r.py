@@ -8,8 +8,8 @@ from ROOT import *
 from tdrStyle import *
 setTDRStyle()
 
-folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v6/'
-infolder = "../v6/"
+folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v10/'
+infolder = "../v10/"
 for i in range(0,6):
 
     if i==0:
@@ -19,12 +19,12 @@ for i in range(0,6):
         rangelow = 0.8
         rangehigh = 1.2
     
-    f1 = TFile(infolder+"higgsCombineTest.MultiDimFit.mH"+str(i)+".root","READ")
+    f1 = TFile(infolder+"higgsCombineTest.MultiDimFit.mH"+str(i)+".000000.root","READ")
     h1 = TH2D("h1","h1",100000,rangelow,rangehigh,100,0,5)
     limit1 = f1.Get("limit")
     limit1.Draw("2*deltaNLL:r_zcat"+str(i)+">>h1","2*deltaNLL<5","goff")
 
-    f2 = TFile(infolder+"higgsCombineTest.MultiDimFit.mH10"+str(i)+".root","READ")
+    f2 = TFile(infolder+"higgsCombineTest.MultiDimFit.mH10"+str(i)+".000000.root","READ")
     h2 = TH2D("h2","h2",100000,rangelow,rangehigh,100,0,5)
     limit2 = f2.Get("limit")
     limit2.Draw("2*deltaNLL:r_zcat"+str(i)+">>h2","2*deltaNLL<5","goff")

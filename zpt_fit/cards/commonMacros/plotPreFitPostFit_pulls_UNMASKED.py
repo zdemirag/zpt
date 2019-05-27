@@ -6,6 +6,7 @@ from tdrStyle import *
 setTDRStyle()
 
 blind = False
+inclusive = False
 
 new_dic = defaultdict(dict)
 
@@ -13,9 +14,12 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
 
   datalab = {"singlemuon":"Wmn", "signal":"signal", "singleelectron":"Wen"}
 
-  folder = "/home/zdemirag/cms_2017/zpt/CMSSW_8_1_0/src/analysis/zpt_fit/cards/v6/"
+  folder = "/home/zdemirag/cms_2017/zpt/CMSSW_8_1_0/src/analysis/zpt_fit/cards/v10/"
 
-  f_mlfit = TFile(folder+'fitDiagnostics.root','READ')
+  if inclusive:
+    f_mlfit = TFile(folder+'fitDiagnostics_inclusive.root','READ')
+  else:
+    f_mlfit = TFile(folder+'fitDiagnostics_differential.root','READ')
 
   f_data = TFile(folder+"mono-x.root","READ")
   f_data.cd("category_"+category)
@@ -30,6 +34,10 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   mainbkg = {"singlemuon":"wjets", "signal":"wjets", "singleelectron":"wjets"}
 
 
+  #if inclusive:
+  #  h_signal0_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat0")
+
+  #else:
   ##prefit
   h_signal0_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat0")
   h_signal1_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat1")
@@ -37,18 +45,20 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   h_signal3_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat3")
   h_signal4_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat4")
   h_signal5_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat5")
-  #h_signal6_pre = f_mlfit.Get("shapes_prefit/monojet_signal/zcat6")
 
   h_signal0_pre.Add(h_signal1_pre)
   h_signal0_pre.Add(h_signal2_pre)
   h_signal0_pre.Add(h_signal3_pre)
   h_signal0_pre.Add(h_signal4_pre)
   h_signal0_pre.Add(h_signal5_pre)  
-  #h_signal0_pre.Add(h_signal6_pre)  
 
-  print "ZEEEE", h_signal0_pre.Integral()
+  print "Signal Prefit Yields", h_signal0_pre.Integral()
 
   
+  #if inclusive:
+  h_signal0 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat0")
+
+  #else:
   ##postfit
   h_signal0 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat0")
   h_signal1 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat1")
@@ -56,14 +66,12 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   h_signal3 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat3")
   h_signal4 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat4")
   h_signal5 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat5")
-  #h_signal6 = f_mlfit.Get("shapes_fit_s/monojet_signal/zcat6")
-
+  
   h_signal0.Add(h_signal1)
   h_signal0.Add(h_signal2)
   h_signal0.Add(h_signal3)
   h_signal0.Add(h_signal4)
   h_signal0.Add(h_signal5)
-  #h_signal0.Add(h_signal6)
 
   processes = [
       'qcd',
@@ -230,8 +238,10 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   dummy.GetXaxis().SetLabelSize(0)
   if region is 'signal':
     dummy.SetMaximum(1e3*dummy.GetMaximum())
+    #dummy.SetMaximum(1e9*dummy.GetMaximum())
   else:
     dummy.SetMaximum(25*dummy.GetMaximum())
+    #dummy.SetMaximum(1e7*dummy.GetMaximum())
   #dummy.SetMaximum(dummy.GetMaximum())
   dummy.SetMinimum(0.002)
   dummy.GetYaxis().SetTitleOffset(1.15)
@@ -525,9 +535,9 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
   #if region is 'signal':
   dummy2.GetYaxis().SetLabelSize(0.03)
   dummy2.GetXaxis().SetLabelSize(0)
-  #dummy2.GetYaxis().SetNdivisions(5);
+  dummy2.GetYaxis().SetNdivisions(5);
   #dummy2.GetYaxis().SetNdivisions(0);
-  dummy2.GetYaxis().SetNdivisions(510);
+  #dummy2.GetYaxis().SetNdivisions(510);
   #dummy2.GetXaxis().SetNdivisions(510)
   dummy2.GetYaxis().CenterTitle()
   dummy2.GetYaxis().SetTitleSize(0.03)
@@ -570,8 +580,12 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
     #dummy2.SetMinimum(0.15) 
 
 
-  dummy2.SetMaximum(1.3)                                                                        
-  dummy2.SetMinimum(0.7) 
+  dummy2.SetMaximum(1.4)                                                                        
+  dummy2.SetMinimum(0.6) 
+
+  #one bin
+  #dummy2.SetMaximum(1.101)                                                                        
+  #dummy2.SetMinimum(0.899) 
   #dummy2.SetMaximum(1.2)                                                                        
   #dummy2.SetMinimum(0.8) 
   dummy2.Draw("hist")
@@ -715,6 +729,10 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
     dummy3.SetMaximum(3.5)
     dummy3.SetMinimum(-3.5)
 
+    #one bin
+    #dummy3.SetMaximum(1.5)
+    #dummy3.SetMinimum(-1.5)
+
     dummy3.Draw("hist")
 
   #data_pull.Draw("PE1 same")
@@ -737,11 +755,15 @@ def plotPreFitPostFit(region,category,sb=False,setPull=True):
     
     gPad.RedrawAxis()
 
-  folder2 ="/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v6/"
-  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+".pdf")
-  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+".png")
-  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+".C")
-  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+".root")
+  if inclusive:
+    added = "_inclusive"
+  else:
+    added = "_differential"
+  folder2 ="/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v10/"
+  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+added+".pdf")
+  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+added+".png")
+  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+added+".C")
+  c.SaveAs(folder2+"/PULLS_prefit_postfit_"+region+added+".root")
 
 
 plotPreFitPostFit("singlemuon","monojet", setPull=True)

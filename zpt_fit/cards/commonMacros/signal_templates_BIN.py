@@ -7,8 +7,8 @@ from ROOT import *
 from tdrStyle import *
 setTDRStyle()
 
-folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v6/'
-dataDir = '/desktop/05a/v2/fittingnlo/'
+folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/v10/'
+dataDir = '/desktop/05a/zdemirag/fittingnlo_test5/'
 
 file0 = TFile(dataDir+"fittingForest_signal.root","READ")
 tree0 = file0.Get("Zvv_nlo_signal")
@@ -18,6 +18,7 @@ weights = "weight"
 
 ptbins    =[250,275,300,350,400,450,500,650,800,1150,1500]
 genptbins = [-1, 200, 300, 400, 500, 800, 1500]
+#genptbins = [200, 300, 400, 500, 800, 1500]
 
 nb = len(genptbins)-1
 
@@ -28,11 +29,13 @@ var="met"
 varcut = "genBosonPt"
 
 for i in range(nb):
+
+    ##non fidicual definition is WRONG - DONT USE THAT PLOT
     
     print i, ptbins[i], ptbins[i+1]
     h[i] = TH1D("h"+str(i),varcut+" >= " + str(ptbins[i]) + " && "+varcut+" <" + str(ptbins[i+1]),len(ptbins)-1,array('d',ptbins))    
     h[i].Sumw2()
-    binned_cuts = cuts +" && "+varcut+" >= " + str(genptbins[i]) + " && "+varcut+" <" + str(genptbins[i+1]) + ")"
+    binned_cuts = cuts +" && "+varcut+" >= " + str(genptbins[i]) + " && "+varcut+" <" + str(genptbins[i+1]) + " && genJetPt>=100)"
     print binned_cuts+"*"+weights
     tree0.Draw(var+">>h"+str(i),binned_cuts+"*"+weights,"")
     h[i].Scale(35800,"width")
@@ -86,7 +89,7 @@ for i in range(nb):
     ratio = integral_in/integral_total*100
 
 
-    h[i].SetMaximum(h[i].GetMaximum()*100)
+    h[i].SetMaximum(h[i].GetMaximum()*1000)
     h[i].Draw("hist")
     hshaded[i].Draw("hist same")
 
@@ -117,7 +120,8 @@ for i in range(nb):
 
     print i, nb, ptbins[i],ptbins[i+1]
 
-    latex2.DrawLatex(0.19,0.75," %i GeV < Generator Z p_{T} < %i GeV"%(genptbins[i],genptbins[i+1]))
+    latex2.DrawLatex(0.19,0.75,"%i GeV < Generator Z p_{T} < %i GeV"%(genptbins[i],genptbins[i+1]))
+    latex2.DrawLatex(0.19,0.70,"Generated jet p_{T} >= 100 GeV")
 
     c1[i].SaveAs(folder+"/signal_template_pt_analysis_gen_"+str(i)+".C")
     c1[i].SaveAs(folder+"/signal_template_pt_analysis_gen_"+str(i)+".pdf")

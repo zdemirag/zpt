@@ -1,0 +1,95 @@
+\documentclass[a4paper, landscape]{article}
+
+\usepackage{setspace}
+\doublespacing
+
+\small
+\usepackage[ hmargin={1.5cm,1.5cm},vmargin={1.0cm,1.0cm},
+  includeheadfoot, marginpar=3.5cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{comment} 
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\usepackage{amsmath} 
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{xspace}
+\captionsetup{labelformat=empty}
+\usepackage{diagbox}
+
+\newcommand{\GeV}{GeV}
+\newcommand{\fLQ}{\ensuremath{f_{\Lambda Q}}}
+\newcommand{\phiLQ}{\ensuremath{\phi_{\Lambda Q}}}
+\newcommand{\PH}{\ensuremath{{H}}}
+\newcommand{\GH}{\ensuremath{\Gamma_{\PH}}}
+\newcommand{\MeVns}{\ensuremath{\text{Me\hspace{-.08em}V}}}
+\newcommand{\Hllll}{H\ensuremath{\rightarrow 4\ell}}
+\newcommand{\Zllll}{Z\ensuremath{\rightarrow 4\ell}}
+\newcommand{\ggH}{\ensuremath{{\rm gg}\to{\rm H}}}
+\newcommand{\VDlife}{\ensuremath{\Delta t}\xspace}
+\newcommand{\PT}{\ensuremath{p_{\mathrm{T}}}\xspace}
+\newcommand{\mgg}{\ensuremath{m_{\gamma\gamma}}\xspace}
+\newcommand{\ttH}{\ensuremath{\mathrm{t\bar{t}H}} }
+\newcommand{\Pq}{\ensuremath{\mathrm{q}}}
+\newcommand{\Paq}{\ensuremath{\mathrm{\overline{q}}}}
+\usepackage{adjustbox}      
+
+\begin{document}
+
+
+\bgroup
+\def\arraystretch{1.5}
+\begin{table}[!h!tb]
+\begin{center}
+\begin{tabular}{lccc} 
+% table 1, charged leptons
+p_{\rm T}^{\rm Z} (GeV) & Z$\rightarrow$ee & Z$\rightarrow$\mu\mu & Z$\rightarrow$\ell\ell\\ \hline
+Inclusive  & 1.083^{+0.051}_{-0.046} & 1.082^{+0.051}_{-0.048} & 1.083^{+0.042}_{-0.040}\\ \hline
+Non-fiducial & 0.633^{+4.325}_{-0.633} & 0.846^{+0.179}_{-0.218} & 0.659^{+0.225}_{-0.291} \\ 
+200-300 & 1.112^{+0.063}_{-0.050} & 1.096^{+0.056}_{-0.052} & 1.116^{+0.047}_{-0.046} \\ 
+300-400 & 1.018^{+0.059}_{-0.047} & 1.028^{+0.057}_{-0.054} & 1.039^{+0.044}_{-0.042} \\ 
+400-500 & 1.099^{+0.063}_{-0.054} & 1.079^{+0.071}_{-0.067} & 1.109^{+0.049}_{-0.047} \\ 
+500-800 & 1.126^{+0.073}_{-0.060} & 0.994^{+0.096}_{-0.089} & 1.094^{+0.057}_{-0.052} \\ 
+800-1500 & 1.173^{+0.168}_{-0.141} & 0.975^{+0.206}_{-0.184} & 1.141^{+0.122}_{-0.110} \\ 
+\hline 
+\end{tabular}
+\normalsize
+\end{center}
+\caption{
+Blah
+\label{tab:blah}
+}
+\end{table}
+\egroup
+
+\bgroup
+\def\arraystretch{1.5}
+\begin{table}[!h!tb]
+\begin{center}
+\begin{tabular}{lccc} 
+p_{\rm T}^{\rm Z} (GeV) & Z$\rightarrow$\ell\ell & Z$\rightarrow$\nu\nu & Z$\rightarrow$\ell\ell+\nu\nu\\ \hline
+Inclusive  & 1.083^{+0.042}_{-0.040} & 1.040^{+0.055}_{-0.053} & 1.080^{+0.034}_{-0.041}\\ \hline
+Non-fiducial & 0.659^{+0.225}_{-0.291} & 1.072^{+0.509}_{-0.305} & 0.768^{+0.178}_{-0.200} \\ 
+200-300 & 1.116^{+0.047}_{-0.046} & 1.128^{+0.069}_{-0.062} & 1.119^{+0.042}_{-0.040} \\ 
+300-400 & 1.039^{+0.044}_{-0.042} & 1.084^{+0.062}_{-0.056} & 1.065^{+0.038}_{-0.037} \\ 
+400-500 & 1.109^{+0.049}_{-0.047} & 1.067^{+0.063}_{-0.058} & 1.072^{+0.040}_{-0.038} \\ 
+500-800 & 1.094^{+0.057}_{-0.052} & 1.043^{+0.062}_{-0.057} & 1.045^{+0.041}_{-0.040} \\ 
+800-1500 & 1.141^{+0.122}_{-0.110} & 0.964^{+0.084}_{-0.077} & 1.000^{+0.064}_{-0.062} \\ 
+\hline 
+\end{tabular}
+\normalsize
+\end{center}
+\caption{
+Blah
+\label{tab:blah}
+}
+\end{table}
+\egroup
+
+\end{document}
+
+
+
+
+
+

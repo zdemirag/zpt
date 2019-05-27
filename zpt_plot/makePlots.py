@@ -3,11 +3,11 @@ import sys, os, string, re, time, datetime
 from multiprocessing import Process
 from array import *
 
-from LoadData import *
-#from LoadElectron import *
+#from LoadData import *
+from LoadElectron import *
 
-#channel_list = ['Wen']
-channel_list = ['signal']
+channel_list = ['Wen']
+#channel_list = ['signal']
 #channel_list  = ['Wmn']
 #channel_list = ['signal','Wmn']
 
@@ -18,7 +18,7 @@ blind = False
 vbf = False
 vtag = False
 shapelimits = False
-postfit = True
+postfit = False
 
 from ROOT import *
 from math import *
@@ -37,7 +37,8 @@ print "Starting Plotting Be Patient!"
 
 def plot_stack(channel, name,var, bin, low, high, ylabel, xlabel, setLog = False):
 
-    folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/greenlight/postfit/'
+    #folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/greenlight/postfit/'
+    folder = '/afs/cern.ch/user/z/zdemirag/www/zpt/panda/greenlight/'
 
     if not os.path.exists(folder):
         os.mkdir(folder)
@@ -261,7 +262,7 @@ arguments['dphipfUZ']   = ['dphipfUZ','dphipfUZ',50,0,5,'Events','#Delta #Phi(je
 
 arguments['pfUWmag']    = ['pfUWmag','pfUWmag',100,200,3500,'Events/GeV','E_{T}^{miss} (W Recoil) [GeV]',True]
 arguments['pfUWphi']    = ['pfUWphi','pfUWphi',25,-5,5,'Events','E_{T}^{miss} #Phi (W Recoil) [GeV]',False]
-arguments['dphipfUW']   = ['dphipfUW','dphipfUW',50,0,5,'Events','#Delta #Phi(jet,E_{T}^{miss})',False]
+arguments['dphipfUW']   = ['dphipfUW','dphipfUW',100,0,10,'Events','#Delta #Phi(jet, W Recoil)',False]
 
 arguments['calomet']    = ['calomet','calomet',50,0,2000,'Events/GeV','Calo E_{T}^{miss} [GeV]',True]
 
@@ -284,8 +285,9 @@ arguments['lep1eta']      = ['lep1eta','looseLep1Eta',25,-5,5,'Events','Leading 
 processes     = []
 
 #variable_list = ['jet1pt','jet1eta','pfmet','pfUWmag','dphipfmet','calomet','jet1phi','npv','njet','mT','lep1pt']
-variable_list = ['pfmet','jet1pt','jet1eta','njet']
+#variable_list = ['pfmet','jet1pt','jet1eta','njet']
 #variable_list = ['pfUWmag','jet1pt','jet1eta','njet','lep1pt','lep1eta','mT']
+variable_list = ['dphipfUW']
 
 #if 'Zmm' in channel_list:
 #    variable_list = [x if x is 'met' else 'pfUZmag' for x in variable_list]

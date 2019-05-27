@@ -59,13 +59,15 @@ sum_ratio_down = 0 ; sum_total_down = 0; sum_poi_down = 0;
 
 if (args.verbose > 0): print "\nNow doing the comparison between the two json files"
 for key in poi_up.keys(): # Iterates through the binned analysis uncertainties
-    if (args.verbose > 0): print "The nuisance considered is ", key
-    
+
     if not key in total_down:
         total_up[key]=1.0
         total_central[key]=1.0
         total_down[key]=1.0
 
+    #if (args.verbose > 0): print "The nuisance considered is ", key, "contribution", round((poi_up[key]/poi_central[key])/(total_up[key]/total_central[key]),3)
+    if (args.verbose > 0): print 'The nuisance considered is {0:45s} contribution {1:3f}'.format(key,(poi_up[key]/poi_central[key])/(total_up[key]/total_central[key]))
+    
     sum_total_up += (1 - (total_up[key]/total_central[key]) ) **2
     sum_poi_up   += (1 - (poi_up[key]/poi_central[key])) **2
     sum_ratio_up += (1 - (poi_up[key]/poi_central[key])/(total_up[key]/total_central[key]))**2
@@ -115,3 +117,11 @@ else:
 print "1-bin     ", POIs_total[0] ," res: ",round(POI_total_fit[1],3)           ," +/- ",round(all_unc_total*scale_total,3),"(stat = ",round(stat_total*scale_total,3),", syst = ",round(sum_total*scale_total,3),")"
 print "multi-bin ", POIs[args.poi]," res: ",round(POI_fit[1],3)                 ," +/- ",round(all_unc_poi*scale_poi  ,3),"(stat = ",round(stat_poi*scale_poi  ,3),", syst = ",round(sum_poi*scale_poi  ,3),")"
 print "Ratio     ", POIs[args.poi]," res: ",round(POI_fit[1]/POI_total_fit[1],3)," +/- ",round(all_unc_ratio*scale_poi,3),"(stat = ",round(stat_poi*scale_poi  ,3),", syst = ",round(sum_ratio*scale_poi,3),")"
+
+
+print "===> Table for the AN"
+
+print round(POI_total_fit[1],3)           ," & ",round(all_unc_total*scale_total,3),"(stat = ",round(stat_total*scale_total,3),", syst = ",round(sum_total*scale_total,3),")"
+print round(POI_fit[1],3)                 ," & ",round(all_unc_poi*scale_poi  ,3),"(stat = ",round(stat_poi*scale_poi  ,3),", syst = ",round(sum_poi*scale_poi  ,3),")"
+print round(POI_fit[1]/POI_total_fit[1],3)," & ",round(all_unc_ratio*scale_poi,3),"(stat = ",round(stat_poi*scale_poi  ,3),", syst = ",round(sum_ratio*scale_poi,3),")"
+

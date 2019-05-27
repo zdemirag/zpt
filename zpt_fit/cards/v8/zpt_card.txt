@@ -6,7 +6,6 @@ kmax * number of nuisance parameters
 shapes *                         monojet_signal    combined_model.root combinedws:monojet_signal_$PROCESS combinedws:monojet_signal_$PROCESS_$SYSTEMATIC
 shapes data_obs                  monojet_signal    combined_model.root combinedws:monojet_signal_data
 shapes wjets                     monojet_signal    combined_model.root combinedws:monojet_signal_wjets_model
-#shapes qcd                       monojet_signal    ../commonMacros/monojet_qcd.root monoxQCD:monojet_signal_qcd monoxQCD:monojet_signal_qcd_$SYSTEMATIC
 shapes zcat0                     monojet_signal    combined_signal.root combinedws:signal_cat0_signal_zjets_0 combinedws:signal_cat0_signal_zjets_0_$SYSTEMATIC
 shapes *                         monojet_singleel  combined_model.root combinedws:monojet_Wen_$PROCESS combinedws:monojet_Wen_$PROCESS_$SYSTEMATIC
 shapes data_obs                  monojet_singleel  combined_model.root combinedws:monojet_Wen_data
@@ -30,9 +29,8 @@ CMS_eff_eletrig         lnN          -  		   -			 -		       -		     -  		   -			
 CMS_eff_m               lnN          -  		   -			 -		       -		     -  		   -			 1.01		       1.01		     1.01		   1.01 		 1.01		       -		     -  		   -			 -		       -		   
 CMS_eff_m_reco          lnN          -  		   -			 -		       -		     -  		   -			 1.01		       1.01		     1.01		   1.01 		 1.01		       -		     -  		   -			 -		       -		   
 CMS_scale_j             lnN          1.04		   1.04 		 1.04		       -		     1.04		   -			 1.04		       1.04		     1.04		   -			 1.04		       1.04		     1.04		   1.04 		 -		       1.04		   
-met_trig                lnN          1.01		   1.01 		 1.01		       -		     1.01		   -			 1.01		       1.01		     1.01		   -			 1.01		       -		     -  		   -			 -		       -		
-#All                    shape         - 		    -			  -			-		      - 		    1			  -			-		      - 		    -			  -			-		      - 		    -			  -			-		 
-QCD_norm                lnN          -  		   -			 -		       -		     -  		   1.75 		    -			  -			-		      - 		    -			  -			-		      - 		    -			  -		   
+mettrig                 lnN          1.02		   1.02 		 1.02		       -		     1.02		   -			 1.02		       1.02		     1.02		   -			 1.02		       -		     -  		   -			 -		       -		
+QCD_norm                lnN          -  		   -			 -		       -		     -  		   1.75 		 -		       -		     -		      - 		    -			  -			-		      - 		    -			  -		   
 QCD_NormEleR            lnN          -  		   -			 -		       -		     -  		   -			 -		       -		     -  		   -			 -		       -		     -  		   -			 -		       1.75		   
 QCD_NormMuonR           lnN          -  		   -			 -		       -		     -  		   -			 -		       -		     -  		   -			 1.75		       -		     -  		   -			 -		       -		   
 lumi_13TeV              lnN          1.026		   1.026		 1.026  	       -		     1.026		   -			 1.026  	       1.026		     1.026		   -			 1.026  	       1.026		     1.026		   1.026		 -		       1.026		   
@@ -41,13 +39,10 @@ top_Reweight13TeV       lnN          -  		   -			 1.1		       -		     -  		   -	
 vv_Norm13TeV            lnN          -  		   -			 -		       -		     1.2		   -			 -		       -		     1.2		   -			 -		       -		     -  		   1.2  		 -		       -		   
 zll_Norm13TeV           lnN          -  		   1.2  		 -		       -		     -  		   -			 1.2		       -		     -  		   -			 -		       1.2		     -  		   -			 -		       -		   
 pu                      shape        1  		   1			 1		       -		     1  		   1			 1		       1		     1  		   -			 1		       1		     1  		   1			 -		       1     
-
 stat_signalzjets0_bin1  shape        1  		   -			 -		       -		     -  		   -			 -		       -		     -  		   -			 -		       -		     -  		   -			 -		       -		   
 
 monojet_stat_error_singlemuonCR_bin0 param 0.0 1
-
 monojet_stat_error_singleelectronCR_bin0 param 0.0 1
-
 mettrig param 0.0 1
 wtowpdf param 0.0 1
 eveto param 0.0 1

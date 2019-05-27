@@ -1,0 +1,531 @@
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing RooRealVar::met
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing RooRealVar::weight
+Appending Sample Wlv_nlo_signal
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing RooRealVar::genBosonPt
+ CUT STRING FOR wjets, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1303223 out of range events
+Wlv_nlo_signal_puUp <ROOT.TTree object ("Wlv_nlo_signal_puUp") at 0x60084d0>
+Appending Sample Wlv_nlo_signal_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR wjets_puUp, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1303223 out of range events
+Appending Sample Wlv_nlo_signal_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR wjets_puDown, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1303223 out of range events
+Appending Sample Zll_nlo_singlemuon
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 467289 out of range events
+Zll_nlo_singlemuon_puUp <ROOT.TTree object ("Zll_nlo_singlemuon_puUp") at 0x61d0d70>
+Appending Sample Zll_nlo_singlemuon_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll_puUp, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 467289 out of range events
+Appending Sample Zll_nlo_singlemuon_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll_puDown, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 467289 out of range events
+Appending Sample Zvv_nlo_signal
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zjets, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 5318565 out of range events
+Zvv_nlo_signal_puUp <ROOT.TTree object ("Zvv_nlo_signal_puUp") at 0x92aaec0>
+Appending Sample Zvv_nlo_signal_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zjets_puUp, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 5318565 out of range events
+Appending Sample Zvv_nlo_signal_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zjets_puDown, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 5318565 out of range events
+Appending Sample Data_singleelectron
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+ CUT STRING FOR data, in Wen : (met>250)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 171812 out of range events
+Data_singleelectron_puUp <ROOT.TObject object at 0x(nil)>
+Appending Sample Zll_nlo_signal
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 160179 out of range events
+Zll_nlo_signal_puUp <ROOT.TTree object ("Zll_nlo_signal_puUp") at 0x96a5250>
+Appending Sample Zll_nlo_signal_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll_puUp, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 160179 out of range events
+Appending Sample Zll_nlo_signal_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll_puDown, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 160179 out of range events
+Appending Sample Wlv_nlo_singlemuon
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR wjets, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1731506 out of range events
+Wlv_nlo_singlemuon_puUp <ROOT.TTree object ("Wlv_nlo_singlemuon_puUp") at 0x961d1e0>
+Appending Sample Wlv_nlo_singlemuon_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR wjets_puUp, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1731506 out of range events
+Appending Sample Wlv_nlo_singlemuon_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR wjets_puDown, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1731506 out of range events
+Appending Sample Diboson_singleelectron
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 5265 out of range events
+Diboson_singleelectron_puUp <ROOT.TTree object ("Diboson_singleelectron_puUp") at 0x62b650f0>
+Appending Sample Diboson_singleelectron_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson_puUp, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 5265 out of range events
+Appending Sample Diboson_singleelectron_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson_puDown, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 5265 out of range events
+Appending Sample QCD_singlemuon
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 471 out of range events
+QCD_singlemuon_puUp <ROOT.TTree object ("QCD_singlemuon_puUp") at 0x6bfc8170>
+Appending Sample QCD_singlemuon_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd_puUp, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 471 out of range events
+Appending Sample QCD_singlemuon_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd_puDown, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 471 out of range events
+Appending Sample ttbar_singleelectron
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 61758 out of range events
+ttbar_singleelectron_puUp <ROOT.TTree object ("ttbar_singleelectron_puUp") at 0x6c044fe0>
+Appending Sample ttbar_singleelectron_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puUp, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 61758 out of range events
+Appending Sample ttbar_singleelectron_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puDown, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 61758 out of range events
+Appending Sample Data_singlemuon
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+ CUT STRING FOR data, in Wmn : (met>250)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 346443 out of range events
+Data_singlemuon_puUp <ROOT.TObject object at 0x(nil)>
+Appending Sample ttbar_signal
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 56192 out of range events
+ttbar_signal_puUp <ROOT.TTree object ("ttbar_signal_puUp") at 0x6c428830>
+Appending Sample ttbar_signal_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puUp, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 56192 out of range events
+Appending Sample ttbar_signal_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puDown, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 56192 out of range events
+Appending Sample ST_singleelectron
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 19544 out of range events
+Adding to existing sample -- Wen_top -> ST_singleelectron, dataset=2253.79 histogram=2253.79
+ST_singleelectron_puUp <ROOT.TTree object ("ST_singleelectron_puUp") at 0x6cabeee0>
+Appending Sample ST_singleelectron_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puUp, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 19544 out of range events
+Adding to existing sample -- Wen_top_puUp -> ST_singleelectron_puUp, dataset=2245.12 histogram=2245.12
+Appending Sample ST_singleelectron_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puDown, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 19544 out of range events
+Adding to existing sample -- Wen_top_puDown -> ST_singleelectron_puDown, dataset=2262.84 histogram=2262.84
+Appending Sample Diboson_signal
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 15192 out of range events
+Diboson_signal_puUp <ROOT.TTree object ("Diboson_signal_puUp") at 0x6c268470>
+Appending Sample Diboson_signal_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson_puUp, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 15192 out of range events
+Appending Sample Diboson_signal_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson_puDown, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 15192 out of range events
+Appending Sample QCD_singleelectron
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 153 out of range events
+QCD_singleelectron_puUp <ROOT.TTree object ("QCD_singleelectron_puUp") at 0x6c51bb90>
+Appending Sample QCD_singleelectron_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd_puUp, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 153 out of range events
+Appending Sample QCD_singleelectron_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd_puDown, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 153 out of range events
+Appending Sample Diboson_singlemuon
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 9945 out of range events
+Diboson_singlemuon_puUp <ROOT.TTree object ("Diboson_singlemuon_puUp") at 0x6d196d00>
+Appending Sample Diboson_singlemuon_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson_puUp, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 9945 out of range events
+Appending Sample Diboson_singlemuon_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR diboson_puDown, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 9945 out of range events
+Appending Sample QCD_signal
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1192 out of range events
+QCD_signal_puUp <ROOT.TTree object ("QCD_signal_puUp") at 0x6d2eef20>
+Appending Sample QCD_signal_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd_puUp, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1192 out of range events
+Appending Sample QCD_signal_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR qcd_puDown, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 1192 out of range events
+Appending Sample ttbar_singlemuon
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 104352 out of range events
+ttbar_singlemuon_puUp <ROOT.TTree object ("ttbar_singlemuon_puUp") at 0x6d369210>
+Appending Sample ttbar_singlemuon_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puUp, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 104352 out of range events
+Appending Sample ttbar_singlemuon_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puDown, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 104352 out of range events
+Appending Sample Zll_nlo_singleelectron
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 118765 out of range events
+Zll_nlo_singleelectron_puUp <ROOT.TTree object ("Zll_nlo_singleelectron_puUp") at 0x6d8e46b0>
+Appending Sample Zll_nlo_singleelectron_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll_puUp, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 118765 out of range events
+Appending Sample Zll_nlo_singleelectron_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR zll_puDown, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 118765 out of range events
+Appending Sample Wlv_nlo_singleelectron
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR wjets, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 895484 out of range events
+Wlv_nlo_singleelectron_puUp <ROOT.TTree object ("Wlv_nlo_singleelectron_puUp") at 0x6e13f910>
+Appending Sample Wlv_nlo_singleelectron_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR wjets_puUp, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 895484 out of range events
+Appending Sample Wlv_nlo_singleelectron_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR wjets_puDown, in Wen : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 895484 out of range events
+Appending Sample Data_signal
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+ CUT STRING FOR data, in signal : (met>250)
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 576270 out of range events
+Data_signal_puUp <ROOT.TObject object at 0x(nil)>
+Appending Sample ST_singlemuon
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 34510 out of range events
+Adding to existing sample -- Wmn_top -> ST_singlemuon, dataset=3566.31 histogram=3566.31
+ST_singlemuon_puUp <ROOT.TTree object ("ST_singlemuon_puUp") at 0x779a3f00>
+Appending Sample ST_singlemuon_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puUp, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 34510 out of range events
+Adding to existing sample -- Wmn_top_puUp -> ST_singlemuon_puUp, dataset=3568.24 histogram=3568.24
+Appending Sample ST_singlemuon_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puDown, in Wmn : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 34510 out of range events
+Adding to existing sample -- Wmn_top_puDown -> ST_singlemuon_puDown, dataset=3563.3 histogram=3563.3
+Appending Sample ST_signal
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 20435 out of range events
+Adding to existing sample -- signal_top -> ST_signal, dataset=1135.89 histogram=1135.89
+ST_signal_puUp <ROOT.TTree object ("ST_signal_puUp") at 0x6d646470>
+Appending Sample ST_signal_puUp
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puUp, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 20435 out of range events
+Adding to existing sample -- signal_top_puUp -> ST_signal_puUp, dataset=1140.35 histogram=1140.35
+Appending Sample ST_signal_puDown
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object met is already in workspace!
+[#1] INFO:ObjectHandling -- RooWorkSpace::import(wspace_monojet) Object weight is already in workspace!
+[#0] ERROR:ObjectHandling -- RooWorkSpace::import(wspace_monojet) ERROR importing object named genBosonPt: another instance with same name already in the workspace and no conflict resolution protocol specified
+ CUT STRING FOR top_puDown, in signal : (met>250)
+[#1] INFO:Eval -- RooAbsReal::attachToTree(genBosonPt) TTree Float_t branch genBosonPt will be converted to double precision
+[#1] INFO:Eval -- RooTreeDataStore::loadValues(tmpdata) Ignored 20435 out of range events
+Adding to existing sample -- signal_top_puDown -> ST_signal_puDown, dataset=1131.17 histogram=1131.17
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+not going to compute the stat up/down
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_data
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_diboson
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_diboson_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_diboson_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_qcd
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_qcd_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_qcd_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_top
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_top_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_top_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_wjets
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_wjets_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_wjets_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_zll
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_zll_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wen_zll_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_data
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_diboson
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_diboson_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_diboson_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_qcd
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_qcd_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_qcd_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_top
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_top_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_top_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_wjets
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_wjets_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_wjets_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_zll
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_zll_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset Wmn_zll_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_data
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_diboson
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_diboson_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_diboson_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_qcd
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_qcd_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_qcd_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_top
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_top_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_top_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_wjets
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_wjets_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_wjets_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_zjets
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_zjets_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_zjets_puUp
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_zll
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_zll_puDown
+[#1] INFO:ObjectHandling -- RooWorkspace::import(wspace_monojet) importing dataset signal_zll_puUp
+Zeynep, right before cd, and write

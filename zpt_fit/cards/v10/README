@@ -1,0 +1,20 @@
+* this set of fits have the new fiducial binning consistent with the Zll analysis
+bins =[250,275,300,350,400,450,500,650,800,1150,1500]
+
+* NLO samples
+
+* qcd is from MC as an initial fit, it needs to be updated accordingly
+
+* pu uncertainties are shape
+
+* fix on the met_trigger both name wise (now correlated) and also the magnitude is increased to 2%
+
+* Gen jet > 100 GeV cut is added into the fiducial definition
+
+
+
+Differential category: text2workspace.py -P HiggsAnalysis.CombinedLimit.PhysicsModel:multiSignalModel --PO verbose --PO 'map=.*/zcat0:r_zcat0[1,0,10]'  --PO 'map=.*/zcat1:r_zcat1[1,0,10]' --PO 'map=.*/zcat2:r_zcat2[1,0,10]' --PO 'map=.*/zcat3:r_zcat3[1,0,10]' --PO 'map=.*/zcat4:r_zcat4[1,0,10]' --PO 'map=.*/zcat5:r_zcat5[1,0,10]' zpt_card.txt -o zpt_multidim.root
+
+
+Inclusive category: text2workspace.py -P HiggsAnalysis.CombinedLimit.PhysicsModel:multiSignalModel --PO verbose --PO 'map=.*/zcat0:r_zcat0[1,0,10]'  --PO 'map=.*/zcat1:r_zcat0[1,0,10]' --PO 'map=.*/zcat2:r_zcat0[1,0,10]' --PO 'map=.*/zcat3:r_zcat0[1,0,10]' --PO 'map=.*/zcat4:r_zcat0[1,0,10]' --PO 'map=.*/zcat5:r_zcat0[1,0,10]' zpt_card.txt -o zpt_multidim_inclusive.root
+

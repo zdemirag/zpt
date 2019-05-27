@@ -1,0 +1,110 @@
+Combination of ../zll/datacard_Pt_mm.txt
+imax 1 number of bins
+jmax 7 number of processes minus 1
+kmax 85 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *         ch1       ../zll/datacard_Pt_mm.root histo_$PROCESS histo_$PROCESS_$SYSTEMATIC
+shapes data_obs  ch1       ../zll/datacard_Pt_mm.root histo_Data
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1  
+observation  55417
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                  ch1           ch1           ch1           ch1           ch1           ch1           ch1           ch1         
+process                              DY_4          DY_0          DY_1          DY_2          DY_3          NonFid        VV            Res         
+process                              -4            -3            -2            -1            0             1             2             3           
+rate                                 87.354793     36503.242864  8038.610586   2033.742986   973.457847    2177.462648   1460.457734   184.36107   
+----------------------------------------------------------------------------------------------------------------------------------
+DYStat_0_2mm            shape        -             1.0           -             -             -             -             -             -           
+DYStat_0_3mm            shape        -             1.0           -             -             -             -             -             -           
+DYStat_0_4mm            shape        -             1.0           -             -             -             -             -             -           
+DYStat_1_0mm            shape        -             -             1.0           -             -             -             -             -           
+DYStat_1_1mm            shape        -             -             1.0           -             -             -             -             -           
+DYStat_1_4mm            shape        -             -             1.0           -             -             -             -             -           
+DYStat_1_5mm            shape        -             -             1.0           -             -             -             -             -           
+DYStat_1_6mm            shape        -             -             1.0           -             -             -             -             -           
+DYStat_1_7mm            shape        -             -             1.0           -             -             -             -             -           
+DYStat_2_0mm            shape        -             -             -             1.0           -             -             -             -           
+DYStat_2_1mm            shape        -             -             -             1.0           -             -             -             -           
+DYStat_2_2mm            shape        -             -             -             1.0           -             -             -             -           
+DYStat_2_3mm            shape        -             -             -             1.0           -             -             -             -           
+DYStat_2_4mm            shape        -             -             -             1.0           -             -             -             -           
+DYStat_2_5mm            shape        -             -             -             1.0           -             -             -             -           
+DYStat_2_6mm            shape        -             -             -             1.0           -             -             -             -           
+DYStat_2_7mm            shape        -             -             -             1.0           -             -             -             -           
+DYStat_3_3mm            shape        -             -             -             -             1.0           -             -             -           
+DYStat_3_4mm            shape        -             -             -             -             1.0           -             -             -           
+DYStat_3_5mm            shape        -             -             -             -             1.0           -             -             -           
+DYStat_3_6mm            shape        -             -             -             -             1.0           -             -             -           
+DYStat_3_7mm            shape        -             -             -             -             1.0           -             -             -           
+DYStat_3_8mm            shape        -             -             -             -             1.0           -             -             -           
+DYStat_3_9mm            shape        -             -             -             -             1.0           -             -             -           
+DYStat_4_5mm            shape        1.0           -             -             -             -             -             -             -           
+DYStat_4_6mm            shape        1.0           -             -             -             -             -             -             -           
+DYStat_4_7mm            shape        1.0           -             -             -             -             -             -             -           
+DYStat_4_8mm            shape        1.0           -             -             -             -             -             -             -           
+DYStat_4_9mm            shape        1.0           -             -             -             -             -             -             -           
+LepEff2mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+LepEff3mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+LepEff4mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+LepEff5mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+LepEff6mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+LepEff7mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+MomRes1mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+MomRes2mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+MomRes3mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+MomRes4mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+NonFidStat_0mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_1mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_2mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_3mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_4mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_5mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_6mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_7mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_8mm          shape        -             -             -             -             -             1.0           -             -           
+NonFidStat_9mm          shape        -             -             -             -             -             1.0           -             -           
+PDF_DY0                 shape        -             1.0           -             -             -             -             -             -           
+PDF_DY1                 shape        -             -             1.0           -             -             -             -             -           
+PDF_DY2                 shape        -             -             -             1.0           -             -             -             -           
+PDF_DY3                 shape        -             -             -             -             1.0           -             -             -           
+PDF_DY4                 shape        1.0           -             -             -             -             -             -             -           
+PDF_NonFid              shape        -             -             -             -             -             1.0           -             -           
+QCDscale_DY0            shape        -             1.0           -             -             -             -             -             -           
+QCDscale_DY1            shape        -             -             1.0           -             -             -             -             -           
+QCDscale_DY2            shape        -             -             -             1.0           -             -             -             -           
+QCDscale_DY3            shape        -             -             -             -             1.0           -             -             -           
+QCDscale_DY4            shape        1.0           -             -             -             -             -             -             -           
+QCDscale_NonFid         shape        -             -             -             -             -             1.0           -             -           
+RecEff0mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+RecEff1mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+RecEff2mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+RecEff3mm               shape        1.0           1.0           1.0           1.0           1.0           1.0           1.0           -           
+ResStat_0mm             shape        -             -             -             -             -             -             -             1.0         
+ResStat_1mm             shape        -             -             -             -             -             -             -             1.0         
+ResStat_2mm             shape        -             -             -             -             -             -             -             1.0         
+ResStat_3mm             shape        -             -             -             -             -             -             -             1.0         
+ResStat_4mm             shape        -             -             -             -             -             -             -             1.0         
+ResStat_5mm             shape        -             -             -             -             -             -             -             1.0         
+ResStat_6mm             shape        -             -             -             -             -             -             -             1.0         
+VVStat_1mm              shape        -             -             -             -             -             -             1.0           -           
+VVStat_2mm              shape        -             -             -             -             -             -             1.0           -           
+VVStat_3mm              shape        -             -             -             -             -             -             1.0           -           
+VVStat_4mm              shape        -             -             -             -             -             -             1.0           -           
+VVStat_5mm              shape        -             -             -             -             -             -             1.0           -           
+VVStat_6mm              shape        -             -             -             -             -             -             1.0           -           
+VVStat_7mm              shape        -             -             -             -             -             -             1.0           -           
+VVStat_8mm              shape        -             -             -             -             -             -             1.0           -           
+VVStat_9mm              shape        -             -             -             -             -             -             1.0           -           
+lumi_13TeV              lnN          1.025         1.025         1.025         1.025         1.025         1.025         1.025         -           
+resNorm                 lnN          -             -             -             -             -             -             -             1.05        
+vvNormPDF               shape        -             -             -             -             -             -             1.0           -           
+vvNormQCD               shape        -             -             -             -             -             -             1.0           -           
+RDY_1 extArg 1.0 [0.0,2.0]
+RDY_2 extArg 1.0 [0.0,2.0]
+RDY_3 extArg 1.0 [0.0,2.0]
+RDY_4 extArg 1.0 [0.0,2.0]
+FR0 rateParam * DY_0 1+((1-@0)*(8038.610+0.435*(@1)+3.668*(@2)+2.130*(@3)+0.314*(@4)+0.092*(@5)+0.004*(@6))+(1-@7)*(2033.743+0.006*(@8)+0.081*(@9)+0.456*(@10)+2.426*(@11)+5.665*(@12)+4.449*(@13)+1.650*(@14)+0.049*(@15))+(1-@16)*(973.458+0.113*(@17)+0.372*(@18)+1.576*(@19)+4.405*(@20)+1.166*(@21)+0.178*(@22)+0.002*(@23))+(1-@24)*(87.355+0.001*(@25)+0.016*(@26)+0.169*(@27)+0.428*(@28)+0.132*(@29)))/(36503.243+3.588*(@30)+0.353*(@31)+0.049*(@32)) RDY_1,DYStat_1_0mm,DYStat_1_1mm,DYStat_1_4mm,DYStat_1_5mm,DYStat_1_6mm,DYStat_1_7mm,RDY_2,DYStat_2_0mm,DYStat_2_1mm,DYStat_2_2mm,DYStat_2_3mm,DYStat_2_4mm,DYStat_2_5mm,DYStat_2_6mm,DYStat_2_7mm,RDY_3,DYStat_3_3mm,DYStat_3_4mm,DYStat_3_5mm,DYStat_3_6mm,DYStat_3_7mm,DYStat_3_8mm,DYStat_3_9mm,RDY_4,DYStat_4_5mm,DYStat_4_6mm,DYStat_4_7mm,DYStat_4_8mm,DYStat_4_9mm,DYStat_0_2mm,DYStat_0_3mm,DYStat_0_4mm
+FR1 rateParam * DY_1 @0 RDY_1
+FR2 rateParam * DY_2 @0 RDY_2
+FR3 rateParam * DY_3 @0 RDY_3
+FR4 rateParam * DY_4 @0 RDY_4

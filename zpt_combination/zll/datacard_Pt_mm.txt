@@ -1,0 +1,95 @@
+imax * number of channels
+jmax * number of background minus 1
+kmax * number of nuisance parameters
+shapes    *   *   datacard_Pt_mm.root  histo_$PROCESS histo_$PROCESS_$SYSTEMATIC
+shapes data_obs * datacard_Pt_mm.root  histo_Data 
+Observation 55417.000000
+bin   ch1  ch1  ch1  ch1  ch1  ch1  ch1  ch1  
+process  DY_0  DY_1  DY_2  DY_3  DY_4  Res VV NonFid
+process  0  -1  -2  -3  -4  1  2  3
+rate  36572.746985  8054.575898  2037.870051  975.544072  87.552413  184.361070 1463.378761 2181.045667
+lumi_13TeV    lnN      1.025  1.025  1.025  1.025  1.025 -    1.025  1.025
+resNorm    lnN     - - - - - 1.050000 - - 
+MomRes1mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+MomRes2mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+MomRes3mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+MomRes4mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+LepEff2mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+LepEff3mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+LepEff4mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+LepEff5mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+LepEff6mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+LepEff7mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+RecEff0mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+RecEff1mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+RecEff2mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+RecEff3mm    shape     1.0 1.0 1.0 1.0 1.0 - 1.0 1.0
+vvNormPDF    shape     - - - - - - 1.0 -
+vvNormQCD    shape     - - - - - - 1.0 -
+ResStat_0mm    shape     - - - - - 1.0 - -
+ResStat_1mm    shape     - - - - - 1.0 - -
+ResStat_2mm    shape     - - - - - 1.0 - -
+ResStat_3mm    shape     - - - - - 1.0 - -
+ResStat_4mm    shape     - - - - - 1.0 - -
+ResStat_5mm    shape     - - - - - 1.0 - -
+ResStat_6mm    shape     - - - - - 1.0 - -
+VVStat_1mm    shape     - - - - - - 1.0 -
+VVStat_2mm    shape     - - - - - - 1.0 -
+VVStat_3mm    shape     - - - - - - 1.0 -
+VVStat_4mm    shape     - - - - - - 1.0 -
+VVStat_5mm    shape     - - - - - - 1.0 -
+VVStat_6mm    shape     - - - - - - 1.0 -
+VVStat_7mm    shape     - - - - - - 1.0 -
+VVStat_8mm    shape     - - - - - - 1.0 -
+VVStat_9mm    shape     - - - - - - 1.0 -
+NonFidStat_0mm    shape     - - - - - - - 1.0
+NonFidStat_1mm    shape     - - - - - - - 1.0
+NonFidStat_2mm    shape     - - - - - - - 1.0
+NonFidStat_3mm    shape     - - - - - - - 1.0
+NonFidStat_4mm    shape     - - - - - - - 1.0
+NonFidStat_5mm    shape     - - - - - - - 1.0
+NonFidStat_6mm    shape     - - - - - - - 1.0
+NonFidStat_7mm    shape     - - - - - - - 1.0
+NonFidStat_8mm    shape     - - - - - - - 1.0
+NonFidStat_9mm    shape     - - - - - - - 1.0
+DYStat_0_2mm    shape     1.0 - - - - - - -
+DYStat_0_3mm    shape     1.0 - - - - - - -
+DYStat_0_4mm    shape     1.0 - - - - - - -
+DYStat_1_0mm    shape     - 1.0 - - - - - -
+DYStat_1_1mm    shape     - 1.0 - - - - - -
+DYStat_1_4mm    shape     - 1.0 - - - - - -
+DYStat_1_5mm    shape     - 1.0 - - - - - -
+DYStat_1_6mm    shape     - 1.0 - - - - - -
+DYStat_1_7mm    shape     - 1.0 - - - - - -
+DYStat_2_0mm    shape     - - 1.0 - - - - -
+DYStat_2_1mm    shape     - - 1.0 - - - - -
+DYStat_2_2mm    shape     - - 1.0 - - - - -
+DYStat_2_3mm    shape     - - 1.0 - - - - -
+DYStat_2_4mm    shape     - - 1.0 - - - - -
+DYStat_2_5mm    shape     - - 1.0 - - - - -
+DYStat_2_6mm    shape     - - 1.0 - - - - -
+DYStat_2_7mm    shape     - - 1.0 - - - - -
+DYStat_3_3mm    shape     - - - 1.0 - - - -
+DYStat_3_4mm    shape     - - - 1.0 - - - -
+DYStat_3_5mm    shape     - - - 1.0 - - - -
+DYStat_3_6mm    shape     - - - 1.0 - - - -
+DYStat_3_7mm    shape     - - - 1.0 - - - -
+DYStat_3_8mm    shape     - - - 1.0 - - - -
+DYStat_3_9mm    shape     - - - 1.0 - - - -
+DYStat_4_5mm    shape     - - - - 1.0 - - -
+DYStat_4_6mm    shape     - - - - 1.0 - - -
+DYStat_4_7mm    shape     - - - - 1.0 - - -
+DYStat_4_8mm    shape     - - - - 1.0 - - -
+DYStat_4_9mm    shape     - - - - 1.0 - - -
+PDF_NonFid    shape     - - - - - - - 1.0
+QCDscale_NonFid    shape     - - - - - - - 1.0
+PDF_DY0    shape     1.0 - - - - - - -
+PDF_DY1    shape     - 1.0 - - - - - -
+PDF_DY2    shape     - - 1.0 - - - - -
+PDF_DY3    shape     - - - 1.0 - - - -
+PDF_DY4    shape     - - - - 1.0 - - -
+QCDscale_DY0    shape     1.0 - - - - - - -
+QCDscale_DY1    shape     - 1.0 - - - - - -
+QCDscale_DY2    shape     - - 1.0 - - - - -
+QCDscale_DY3    shape     - - - 1.0 - - - -
+QCDscale_DY4    shape     - - - - 1.0 - - -

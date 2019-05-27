@@ -1,0 +1,11 @@
+* this set of fits have the new fiducial binning consistent with the Zll analysis
+bins =[250,275,300,350,400,450,500,650,800,1150,1500]
+
+* NLO samples but NO EW Corrections on W or Z
+
+* qcd is from MC as an initial fit, it needs to be updated accordingly
+
+* pu uncertainties are shape
+
+* met trig uncertainty fixed
+
